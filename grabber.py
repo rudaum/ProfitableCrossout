@@ -3,15 +3,21 @@ from bs4 import BeautifulSoup
 from classes import Resource, CommonCraftable, RareCraftable, EpicCraftable, LegendaryCraftable, RelicCraftable
 
 
-def getCrossoutDBItems():
+def get_crossoutdb_items():
     url = 'https://crossoutdb.com/#length=-1.'
-    print('oi')
-    response = requests.get(url)
-    print('oi')
-    # parse html
-    crossoutdb_page = BeautifulSoup(response.content, 'html.parser')
+    # response = requests.get(url)
 
-    resources = common_craftables = rare_craftables = epic_craftables = legendary_craftables = relic_craftables = []
+    # parse html
+    # crossoutdb_page = BeautifulSoup(response.content, 'html.parser')
+
+    crossoutdb_page = BeautifulSoup(open("page.html", encoding="utf8"), 'html.parser')
+
+    resources = []
+    common_craftables = []
+    rare_craftables = []
+    epic_craftables = []
+    legendary_craftables = []
+    relic_craftables = []
 
     # Grabbing Items
     for table_row in crossoutdb_page.find_all('tr', class_='selected-row'):

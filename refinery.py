@@ -1,6 +1,6 @@
-from grabber import getCrossoutDBItems
+from grabber import get_crossoutdb_Items
 
-items = getCrossoutDBItems()
+items = get_crossoutdb_Items()
 
 
 def get_resources():
