@@ -19,7 +19,7 @@ def get_crossoutdb_items():
     epic_craftables = []
     legendary_craftables = []
     relic_craftables = []
-    x = []
+
     # Grabbing Items
     for table_row in crossoutdb_page.find_all('tr', class_='selected-row'):
         item_id = table_row.find('a')['href'].strip()
@@ -33,7 +33,7 @@ def get_crossoutdb_items():
             resources.append(Resource(item_id, item_name, item_minsell, item_type, item_faction, item_rarity))
         if item_faction != '':
             if item_rarity == 'Common':
-                x.append(item_id)
+
                 common_craftables.append(CommonCraftable(item_id, item_name, item_minsell, item_type, item_faction, item_rarity))
             if item_rarity == 'Rare':
                 rare_craftables.append(RareCraftable(item_id, item_name, item_minsell, item_type, item_faction, item_rarity))
@@ -43,7 +43,7 @@ def get_crossoutdb_items():
                 legendary_craftables.append(LegendaryCraftable(item_id, item_name, item_minsell, item_type, item_faction, item_rarity))
             if item_rarity == 'Relic':
                 relic_craftables.append(RelicCraftable(item_id, item_name, item_minsell, item_type, item_faction, item_rarity))
-    print(x)
+
     item_list = [resources, common_craftables, rare_craftables, epic_craftables, legendary_craftables, relic_craftables]
     # print(item_id, item_name, item_minsell, item_type, item_faction, item_rarity)
     return item_list
