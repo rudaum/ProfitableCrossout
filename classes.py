@@ -1,9 +1,4 @@
-class CrossoutItem:
-    def __init__(self):
-        self.x = 1
-
-
-class Resource(CrossoutItem):
+class Resource():
     def __init__(self, uid, name, value, type, faction, rarity):
         self.uid = uid
         self.name = name
@@ -12,19 +7,7 @@ class Resource(CrossoutItem):
         self.faction = faction
         self.rarity = rarity
 
-
-class CommonCraftable(CrossoutItem):
-    def __init__(self, uid, name, value, type, faction, rarity):
-        self.uid = uid
-        self.name = name
-        self.value = value
-        self.type = type
-        self.faction = faction
-        self.rarity = rarity
-        self.prod_materials = [1]
-
-
-class RareCraftable(CrossoutItem):
+class CommonCraftable():
     def __init__(self, uid, name, value, type, faction, rarity):
         self.uid = uid
         self.name = name
@@ -35,7 +18,7 @@ class RareCraftable(CrossoutItem):
         self.prod_materials = [1]
 
 
-class EpicCraftable(CrossoutItem):
+class RareCraftable():
     def __init__(self, uid, name, value, type, faction, rarity):
         self.uid = uid
         self.name = name
@@ -46,7 +29,7 @@ class EpicCraftable(CrossoutItem):
         self.prod_materials = [1]
 
 
-class LegendaryCraftable(CrossoutItem):
+class EpicCraftable():
     def __init__(self, uid, name, value, type, faction, rarity):
         self.uid = uid
         self.name = name
@@ -57,7 +40,18 @@ class LegendaryCraftable(CrossoutItem):
         self.prod_materials = [1]
 
 
-class RelicCraftable(CrossoutItem):
+class LegendaryCraftable():
+    def __init__(self, uid, name, value, type, faction, rarity):
+        self.uid = uid
+        self.name = name
+        self.value = value
+        self.type = type
+        self.faction = faction
+        self.rarity = rarity
+        self.prod_materials = [1]
+
+
+class RelicCraftable():
     def __init__(self, uid, name, value, type, faction, rarity):
         self.uid = uid
         self.name = name

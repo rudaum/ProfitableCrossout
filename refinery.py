@@ -1,19 +1,15 @@
-from grabber import get_crossoutdb_Items
+from grabber import get_crossoutdb_items
 
-items = get_crossoutdb_Items()
-
-
-def get_resources():
-    resources = []
-    for item in items:
-        if item.type == 'Resource':
-            resources.append(item)
-    return resources
+items = get_crossoutdb_items()
+resources = items[0]
+commons = items[1]
+rares = items[2]
+epic = items[3]
+legendaries = items[4]
+relics = items[5]
 
 
-def get_craftables():
-    craftables = []
-    for item in items:
-        if item.faction != '':
-            craftables.append(item)
-    return craftables
+def get_resource_by_name(name):
+    for item in resources:
+        if item.name == name:
+            return item
