@@ -1,3 +1,5 @@
+from builtins import print
+
 import requests
 from bs4 import BeautifulSoup
 from classes import Resource, CommonCraftable, RareCraftable, EpicCraftable, LegendaryCraftable, RelicCraftable
@@ -33,8 +35,15 @@ def get_crossoutdb_items():
             resources.append(Resource(item_id, item_name, item_minsell, item_type, item_faction, item_rarity))
         if item_faction != '':
             if item_rarity == 'Common':
-
-                common_craftables.append(CommonCraftable(item_id, item_name, item_minsell, item_type, item_faction, item_rarity))
+                url = 'https://crossoutdb.com/{}'.format(item_id)
+                response = requests.get(url)
+                # parse html
+                crossoutdb_page = BeautifulSoup(response.content, 'html.parser')
+                resource = crossoutdb_page.find_all('a', style="font-weight: bold;")[0].text.strip()
+                amount = crossoutdb_page.find_all('div', class_="label-md pull-left")[0].text.strip().split()[0]
+                common_craftables.append(CommonCraftable(
+                    item_id, item_name, item_minsell, item_type, item_faction, item_rarity, resource, amount))
+                print(item_id, item_name, item_minsell, item_type, item_faction, item_rarity, resource, amount)
             if item_rarity == 'Rare':
                 rare_craftables.append(RareCraftable(item_id, item_name, item_minsell, item_type, item_faction, item_rarity))
             if item_rarity == 'Epic':

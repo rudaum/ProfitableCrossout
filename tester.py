@@ -14,6 +14,6 @@ response = requests.get(url)
 crossoutdb_page = BeautifulSoup(response.content, 'html.parser')
 
 material = crossoutdb_page.find_all('a', style="font-weight: bold;")[0].text.strip()
-amount = crossoutdb_page.find_all('div', class_="label-md pull-left")[0].text.strip()
+amount = crossoutdb_page.find_all('div', class_="label-md pull-left")[0].text.strip().split()[0]
 print(material, amount)
 input()
