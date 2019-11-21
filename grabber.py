@@ -21,6 +21,7 @@ def get_craft_materials(uid):
 
 
 # Setting and emptying the Data Files
+open(resources_file, 'w').close()
 open(dict_resources, 'w').close()
 open(craftables_file, 'w').close()
 open(dict_commons, 'w').close()
@@ -48,7 +49,7 @@ for table_row in crossoutdb_page.find_all('tr', class_='selected-row'):
 
     if item_type == 'Resource':
         with open(resources_file, 'a') as file:
-            file.write(f'{item_id};{item_name};{item_minsell};{item_faction};{item_rarity};{item_type}\n')
+            file.write(f'{item_id};{item_name};{item_minsell};{item_rarity};{item_type}\n')
         file.close()
         obj = Resource(
             item_id, item_name, item_minsell, item_type, item_faction, item_rarity

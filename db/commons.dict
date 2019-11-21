@@ -1,19 +1,19 @@
-{"uid": "/item/5", "name": "Lupara", "value": "0.94", "type": "Shotgun", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "30"}}
-{"uid": "/item/88", "name": "WWT1", "value": "3.54", "type": "Medium cabin", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "75"}}
+{"uid": "/item/5", "name": "Lupara", "value": "1.00", "type": "Shotgun", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "30"}}
+{"uid": "/item/88", "name": "WWT1", "value": "3.59", "type": "Medium cabin", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "75"}}
 {"uid": "/item/93", "name": "LM-54 Chord", "value": "0.33", "type": "Machine gun", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "30"}}
-{"uid": "/item/96", "name": "Docker", "value": "2.91", "type": "Heavy cabin", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "75"}}
+{"uid": "/item/96", "name": "Docker", "value": "2.83", "type": "Heavy cabin", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "75"}}
 {"uid": "/item/99", "name": "Avenger 57mm", "value": "1.56", "type": "Cannon", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "30"}}
-{"uid": "/item/107", "name": "B-1 Aviator", "value": "2.15", "type": "Booster", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "55"}}
-{"uid": "/item/109", "name": "R-1 Breeze", "value": "0.99", "type": "Radiator", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "20"}}
-{"uid": "/item/120", "name": "Huntsman", "value": "2.48", "type": "Medium cabin", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "75"}}
-{"uid": "/item/126", "name": "Small wheel ST", "value": "0.37", "type": "Wheel", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "15"}}
-{"uid": "/item/139", "name": "Fuel barrel", "value": "1.56", "type": "Special module", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "60"}}
-{"uid": "/item/163", "name": "Medium wheel ST", "value": "0.40", "type": "Wheel", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "15"}}
-{"uid": "/item/165", "name": "Car jack", "value": "0.89", "type": "Special module", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "20"}}
-{"uid": "/item/172", "name": "Radio", "value": "0.47", "type": "Radio", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "20"}}
+{"uid": "/item/107", "name": "B-1 Aviator", "value": "2.49", "type": "Booster", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "55"}}
+{"uid": "/item/109", "name": "R-1 Breeze", "value": "0.98", "type": "Radiator", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "20"}}
+{"uid": "/item/120", "name": "Huntsman", "value": "2.30", "type": "Medium cabin", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "75"}}
+{"uid": "/item/126", "name": "Small wheel ST", "value": "0.38", "type": "Wheel", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "15"}}
+{"uid": "/item/139", "name": "Fuel barrel", "value": "1.58", "type": "Special module", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "60"}}
+{"uid": "/item/163", "name": "Medium wheel ST", "value": "0.60", "type": "Wheel", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "15"}}
+{"uid": "/item/165", "name": "Car jack", "value": "0.80", "type": "Special module", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "20"}}
+{"uid": "/item/172", "name": "Radio", "value": "0.69", "type": "Radio", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "20"}}
 {"uid": "/item/173", "name": "RS-1 Ruby", "value": "1.60", "type": "Radar", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "35"}}
-{"uid": "/item/176", "name": "Small wheel", "value": "0.74", "type": "Wheel", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "15"}}
-{"uid": "/item/186", "name": "Medium wheel", "value": "0.80", "type": "Wheel", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "15"}}
-{"uid": "/item/370", "name": "Repair Kit", "value": "3.49", "type": "Resource", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "300", "Copper x100": "90"}}
-{"uid": "/item/451", "name": "Decor container", "value": "10.98", "type": "Crate", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "400"}}
-{"uid": "/item/960", "name": "Sprinter", "value": "0.67", "type": "Medium cabin", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "75"}}
+{"uid": "/item/176", "name": "Small wheel", "value": "0.79", "type": "Wheel", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "15"}}
+{"uid": "/item/186", "name": "Medium wheel", "value": "0.78", "type": "Wheel", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "15"}}
+{"uid": "/item/370", "name": "Repair Kit", "value": "3.52", "type": "Resource", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "300", "Copper x100": "90"}}
+{"uid": "/item/451", "name": "Decor container", "value": "10.99", "type": "Crate", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "400"}}
+{"uid": "/item/960", "name": "Sprinter", "value": "0.70", "type": "Medium cabin", "faction": "Engineers", "rarity": "Common", "craft_materials": {"Scrap Metal x100": "75"}}

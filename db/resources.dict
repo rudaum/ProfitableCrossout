@@ -1,20 +1,20 @@
-{"uid": "/item/43", "name": "Copper x100", "value": "3.01", "type": "Resource", "faction": "", "rarity": "Common"}
-{"uid": "/item/53", "name": "Scrap Metal x100", "value": "4.38", "type": "Resource", "faction": "", "rarity": "Common"}
-{"uid": "/item/57", "name": "Scrap Metal x1000", "value": "43.70", "type": "Resource", "faction": "", "rarity": "Common"}
-{"uid": "/item/85", "name": "Wires x100", "value": "7.03", "type": "Resource", "faction": "", "rarity": "Common"}
+{"uid": "/item/43", "name": "Copper x100", "value": "2.99", "type": "Resource", "faction": "", "rarity": "Common"}
+{"uid": "/item/53", "name": "Scrap Metal x100", "value": "4.34", "type": "Resource", "faction": "", "rarity": "Common"}
+{"uid": "/item/57", "name": "Scrap Metal x1000", "value": "43.34", "type": "Resource", "faction": "", "rarity": "Common"}
+{"uid": "/item/85", "name": "Wires x100", "value": "7.04", "type": "Resource", "faction": "", "rarity": "Common"}
 {"uid": "/item/106", "name": "Fuel x100", "value": "2.88", "type": "Resource", "faction": "", "rarity": "Common"}
-{"uid": "/item/114", "name": "Coupons x10", "value": "0.23", "type": "Resource", "faction": "", "rarity": "Common"}
-{"uid": "/item/118", "name": "Copper x1000", "value": "29.86", "type": "Resource", "faction": "", "rarity": "Common"}
-{"uid": "/item/119", "name": "Coupons x100", "value": "2.35", "type": "Resource", "faction": "", "rarity": "Common"}
-{"uid": "/item/137", "name": "Fuel x1000", "value": "29.48", "type": "Resource", "faction": "", "rarity": "Common"}
-{"uid": "/item/168", "name": "Electronics x100", "value": "37.50", "type": "Resource", "faction": "", "rarity": "Common"}
+{"uid": "/item/114", "name": "Coupons x10", "value": "0.24", "type": "Resource", "faction": "", "rarity": "Common"}
+{"uid": "/item/118", "name": "Copper x1000", "value": "29.75", "type": "Resource", "faction": "", "rarity": "Common"}
+{"uid": "/item/119", "name": "Coupons x100", "value": "2.43", "type": "Resource", "faction": "", "rarity": "Common"}
+{"uid": "/item/137", "name": "Fuel x1000", "value": "29.47", "type": "Resource", "faction": "", "rarity": "Common"}
+{"uid": "/item/168", "name": "Electronics x100", "value": "37.00", "type": "Resource", "faction": "", "rarity": "Common"}
 {"uid": "/item/201", "name": "Electronics x10", "value": "3.59", "type": "Resource", "faction": "", "rarity": "Common"}
-{"uid": "/item/221", "name": "Wires x1000", "value": "70.28", "type": "Resource", "faction": "", "rarity": "Common"}
-{"uid": "/item/335", "name": "Uranium ore x10", "value": "304.83", "type": "Resource", "faction": "", "rarity": "Common"}
+{"uid": "/item/221", "name": "Wires x1000", "value": "70.10", "type": "Resource", "faction": "", "rarity": "Common"}
+{"uid": "/item/335", "name": "Uranium ore x10", "value": "299.99", "type": "Resource", "faction": "", "rarity": "Common"}
 {"uid": "/item/337", "name": "Uranium ore x100", "value": "3100.00", "type": "Resource", "faction": "", "rarity": "Common"}
-{"uid": "/item/370", "name": "Repair Kit", "value": "3.49", "type": "Resource", "faction": "Engineers", "rarity": "Common"}
-{"uid": "/item/783", "name": "Batteries x10", "value": "0.62", "type": "Resource", "faction": "", "rarity": "Common"}
-{"uid": "/item/784", "name": "Batteries x100", "value": "7.00", "type": "Resource", "faction": "", "rarity": "Common"}
-{"uid": "/item/785", "name": "Plastic x100", "value": "19.99", "type": "Resource", "faction": "", "rarity": "Common"}
+{"uid": "/item/370", "name": "Repair Kit", "value": "3.52", "type": "Resource", "faction": "Engineers", "rarity": "Common"}
+{"uid": "/item/783", "name": "Batteries x10", "value": "0.64", "type": "Resource", "faction": "", "rarity": "Common"}
+{"uid": "/item/784", "name": "Batteries x100", "value": "7.21", "type": "Resource", "faction": "", "rarity": "Common"}
+{"uid": "/item/785", "name": "Plastic x100", "value": "19.98", "type": "Resource", "faction": "", "rarity": "Common"}
 {"uid": "/item/786", "name": "Plastic x1000", "value": "199.00", "type": "Resource", "faction": "", "rarity": "Common"}
 {"uid": "/item/919", "name": "Engraved casings", "value": "0.00", "type": "Resource", "faction": "", "rarity": "Common"}
