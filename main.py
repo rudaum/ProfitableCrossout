@@ -1,6 +1,7 @@
-from classes import Resource, CommonCraftable, RareCraftable, EpicCraftable, LegendaryCraftable, RelicCraftable
+from classes import Resource, Craftable, CommonCraftable, RareCraftable, EpicCraftable, LegendaryCraftable, RelicCraftable
 from settings import *
 
+craftables = []
 resources = []
 commons = []
 rares = []
@@ -10,13 +11,21 @@ relics = []
 
 
 def retrieve_craftables():
-    # Retrieving Common Craftables
-    with open(resources_file, 'r') as dict_file:
-        for line in dict_file.readlines():
-            print(line.split())
+    # Retrieving Resources
+    with open(resources_file, 'r') as file:
+        for line in file.readlines():
             resources.append(
-                Resource(line.split(';'))
+                Resource(line.strip())
             )
+    file.close()
+
+    # Retrieving Common Craftables
+    with open(craftables_file, 'r') as file:
+        for line in file.readlines():
+            resources.append(
+                Craftable(line.strip())
+            )
+    file.close()
 
 
 
