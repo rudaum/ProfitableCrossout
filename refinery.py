@@ -1,6 +1,6 @@
-from grabber import get_crossoutdb_items
 
-items = get_crossoutdb_items()
+
+
 resources = items[0]
 commons = items[1]
 rares = items[2]

@@ -1,58 +1,111 @@
-from builtins import print
-
 import requests
+import json
 from bs4 import BeautifulSoup
 from classes import Resource, CommonCraftable, RareCraftable, EpicCraftable, LegendaryCraftable, RelicCraftable
+from collections import OrderedDict
+from settings import *
 
-
-def get_crossoutdb_items():
-    url = 'https://crossoutdb.com/#length=-1.'
-    # response = requests.get(url)
-
+def get_craft_materials(uid):
+    url_ = 'https://crossoutdb.com/{}'.format(uid)
+    craft_materials = OrderedDict()
+    response_ = requests.get(url_, proxies=proxies, verify=False)
     # parse html
-    # crossoutdb_page = BeautifulSoup(response.content, 'html.parser')
+    item_page = BeautifulSoup(response_.content, 'html.parser')
+    for row in item_page.findAll('tr', class_="depth-1"):
+        if row.attrs['data-parentuniqueid'] == '0':
+            material = row.find('a', style="font-weight: bold;").text.strip()
+            amount = row.find('div', class_="label-md pull-left").text.strip().split()[0]
+            # unit_value = row.find('div', class_="recipe-price label-md rec-right").text.strip().split()[0]
+            craft_materials[material] = amount
+    return craft_materials
 
-    crossoutdb_page = BeautifulSoup(open("html/page.html", encoding="utf8"), 'html.parser')
-    common_page = BeautifulSoup(open("html/common.html", encoding="utf8"), 'html.parser')
 
-    resources = []
-    common_craftables = []
-    rare_craftables = []
-    epic_craftables = []
-    legendary_craftables = []
-    relic_craftables = []
+# Setting and emptying the Data Files
+open(dict_resources, 'w').close()
+open(craftables_file, 'w').close()
+open(dict_commons, 'w').close()
+open(dict_rares, 'w').close()
+open(dict_epics, 'w').close()
+open(dict_legendaries, 'w').close()
+open(dict_relics, 'w').close()
 
-    # Grabbing Items
-    for table_row in crossoutdb_page.find_all('tr', class_='selected-row'):
-        item_id = table_row.find('a')['href'].strip()
-        item_name = table_row.find('h4', class_="item-title").text.strip()
-        item_rarity = table_row.find('span').text.strip()
-        item_faction = table_row.find_all('div', class_='label-md-left')[0].text.strip()
-        item_type = table_row.find_all('div', class_='label-md-left')[2].text.strip()
-        item_minsell = table_row.find_all('div', class_='label-md')[1].text.strip()
+# CrossoutDB Main Page
+url = 'https://crossoutdb.com/#length=-1.'
+response = requests.get(url, proxies=proxies, verify=False)
 
-        if item_type == 'Resource':
-            resources.append(Resource(item_id, item_name, item_minsell, item_type, item_faction, item_rarity))
-        if item_faction != '':
-            if item_rarity == 'Common':
-                url = 'https://crossoutdb.com/{}'.format(item_id)
-                response = requests.get(url)
-                # parse html
-                crossoutdb_page = BeautifulSoup(response.content, 'html.parser')
-                resource = crossoutdb_page.find_all('a', style="font-weight: bold;")[0].text.strip()
-                amount = crossoutdb_page.find_all('div', class_="label-md pull-left")[0].text.strip().split()[0]
-                common_craftables.append(CommonCraftable(
-                    item_id, item_name, item_minsell, item_type, item_faction, item_rarity, resource, amount))
-                print(item_id, item_name, item_minsell, item_type, item_faction, item_rarity, resource, amount)
-            if item_rarity == 'Rare':
-                rare_craftables.append(RareCraftable(item_id, item_name, item_minsell, item_type, item_faction, item_rarity))
-            if item_rarity == 'Epic':
-                epic_craftables.append(EpicCraftable(item_id, item_name, item_minsell, item_type, item_faction, item_rarity))
-            if item_rarity == 'Legendary':
-                legendary_craftables.append(LegendaryCraftable(item_id, item_name, item_minsell, item_type, item_faction, item_rarity))
-            if item_rarity == 'Relic':
-                relic_craftables.append(RelicCraftable(item_id, item_name, item_minsell, item_type, item_faction, item_rarity))
+# parse html
+crossoutdb_page = BeautifulSoup(response.content, 'html.parser')
+# crossoutdb_page = BeautifulSoup(open("html/page.html", encoding="utf8"), 'html.parser')
 
-    item_list = [resources, common_craftables, rare_craftables, epic_craftables, legendary_craftables, relic_craftables]
-    # print(item_id, item_name, item_minsell, item_type, item_faction, item_rarity)
-    return item_list
+# Grabbing Items
+for table_row in crossoutdb_page.find_all('tr', class_='selected-row'):
+    item_id = table_row.find('a')['href'].strip()
+    item_name = table_row.find('h4', class_="item-title").text.strip()
+    item_rarity = table_row.find('span').text.strip()
+    item_faction = table_row.find_all('div', class_='label-md-left')[0].text.strip()
+    item_type = table_row.find_all('div', class_='label-md-left')[2].text.strip()
+    item_minsell = table_row.find_all('div', class_='label-md')[1].text.strip()
+
+    if item_type == 'Resource':
+        with open(resources_file, 'a') as file:
+            file.write(f'{item_id};{item_name};{item_minsell};{item_faction};{item_rarity};{item_type}\n')
+        file.close()
+        obj = Resource(
+            item_id, item_name, item_minsell, item_type, item_faction, item_rarity
+        )
+        with open(dict_resources, 'a') as dict_file:
+            dict_file.write(json.dumps(obj.__dict__))
+            dict_file.write('\n')
+        dict_file.close()
+
+    if item_faction != '':
+        with open(craftables_file, 'a') as file:
+            file.write(f'{item_id};{item_name};{item_minsell};{item_faction};{item_rarity};{item_type};{get_craft_materials(item_id)}\n')
+        file.close()
+
+        if item_rarity == 'Common':
+            obj = CommonCraftable(
+                item_id, item_name, item_minsell, item_type, item_faction, item_rarity, get_craft_materials(item_id)
+            )
+            with open(dict_commons, 'a') as dict_file:
+                dict_file.write(json.dumps(obj.__dict__))
+                dict_file.write('\n')
+            dict_file.close()
+
+        if item_rarity == 'Rare':
+            obj = RareCraftable(
+                item_id, item_name, item_minsell, item_type, item_faction, item_rarity, get_craft_materials(item_id)
+            )
+            with open(dict_rares, 'a') as dict_file:
+                dict_file.write(json.dumps(obj.__dict__))
+                dict_file.write('\n')
+            dict_file.close()
+
+        if item_rarity == 'Epic':
+            obj = EpicCraftable(
+                item_id, item_name, item_minsell, item_type, item_faction, item_rarity, get_craft_materials(item_id)
+            )
+            with open(dict_epics, 'a') as dict_file:
+                dict_file.write(json.dumps(obj.__dict__))
+                dict_file.write('\n')
+            dict_file.close()
+
+        if item_rarity == 'Legendary':
+            obj = LegendaryCraftable(
+                item_id, item_name, item_minsell, item_type, item_faction, item_rarity, get_craft_materials(item_id)
+            )
+            with open(dict_legendaries, 'a') as dict_file:
+                dict_file.write(json.dumps(obj.__dict__))
+                dict_file.write('\n')
+            dict_file.close()
+
+        if item_rarity == 'Relic':
+            obj = RelicCraftable(
+                item_id, item_name, item_minsell, item_type, item_faction, item_rarity, get_craft_materials(item_id)
+            )
+            with open(dict_relics, 'a') as dict_file:
+                dict_file.write(json.dumps(obj.__dict__))
+                dict_file.write('\n')
+            dict_file.close()
+
+# print(item_id, item_name, item_minsell, item_type, item_faction, item_rarity)
