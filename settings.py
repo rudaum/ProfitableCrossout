@@ -15,3 +15,6 @@ dict_rares = 'db/rares.dict'
 dict_epics = 'db/epics.dict'
 dict_legendaries = 'db/legendaries.dict'
 dict_relics = 'db/relics.dict'
+
+workbench_cost = {'Relic Minimum Bench Cost': 0, 'Legendary Minimum Bench Cost': 72, 'Epic Minimum Bench Cost': 18,
+                  'Rare Minimum Bench Cost': 4.5}

@@ -2,12 +2,11 @@ import requests
 import json
 from bs4 import BeautifulSoup
 from classes import Resource, CommonCraftable, RareCraftable, EpicCraftable, LegendaryCraftable, RelicCraftable
-from collections import OrderedDict
 from settings import *
 
 def get_craft_materials(uid):
     url_ = 'https://crossoutdb.com/{}'.format(uid)
-    craft_materials = OrderedDict()
+    craft_materials = {}
     response_ = requests.get(url_, proxies=proxies, verify=False)
     # parse html
     item_page = BeautifulSoup(response_.content, 'html.parser')
@@ -51,19 +50,13 @@ for table_row in crossoutdb_page.find_all('tr', class_='selected-row'):
         with open(resources_file, 'a') as file:
             file.write(f'{item_id};{item_name};{item_minsell};{item_rarity};{item_type}\n')
         file.close()
-        obj = Resource(
-            item_id, item_name, item_minsell, item_type, item_faction, item_rarity
-        )
-        with open(dict_resources, 'a') as dict_file:
-            dict_file.write(json.dumps(obj.__dict__))
-            dict_file.write('\n')
-        dict_file.close()
 
     if item_faction != '':
         with open(craftables_file, 'a') as file:
             file.write(f'{item_id};{item_name};{item_minsell};{item_faction};{item_rarity};{item_type};{get_craft_materials(item_id)}\n')
         file.close()
 
+'''
         if item_rarity == 'Common':
             obj = CommonCraftable(
                 item_id, item_name, item_minsell, item_type, item_faction, item_rarity, get_craft_materials(item_id)
@@ -108,5 +101,6 @@ for table_row in crossoutdb_page.find_all('tr', class_='selected-row'):
                 dict_file.write(json.dumps(obj.__dict__))
                 dict_file.write('\n')
             dict_file.close()
+'''
 
 # print(item_id, item_name, item_minsell, item_type, item_faction, item_rarity)

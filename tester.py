@@ -1,35 +1,73 @@
-from builtins import print
+from settings import craftables_file, resources_file, workbench_cost
+from classes import Craftable, Resource
 
-import requests
-from bs4 import BeautifulSoup
-from collections import OrderedDict
-
-common = ['/item/5', '/item/830', '/item/865', '/item/93', '/item/96', '/item/99', '/item/107', '/item/109', '/item/120', '/item/126',
-          '/item/139', '/item/163', '/item/165', '/item/172', '/item/173', '/item/176', '/item/186', '/item/370',
-          '/item/451', '/item/960']
-prx_user = 'rudolf.wolter'
-prx_pwd = 'C3t3d3s3!'
-proxies = {
-    "http": "http://{}:{}@kn.proxy.int.kn:80".format(prx_user, prx_pwd),
-    "https": "http://{}:{}@kn.proxy.int.kn:80".format(prx_user, prx_pwd)
-}
+craftables = {}
+resources = {}
 
 
-def get_craft_materials(uid):
-    url = 'https://crossoutdb.com/{}'.format(uid)
-    craft_materials = OrderedDict()
-    response = requests.get(url, proxies=proxies, verify=False)
-    # parse html
-    item_page = BeautifulSoup(response.content, 'html.parser')
-    for row in item_page.findAll('tr', class_="depth-1"):
-        if row.attrs['data-parentuniqueid'] == '0':
-            material = row.find('a', style="font-weight: bold;").text.strip()
-            amount = row.find('div', class_="label-md pull-left").text.strip().split()[0]
-            # unit_value = row.find('div', class_="recipe-price label-md rec-right").text.strip().split()[0]
-            craft_materials[material] = amount
-    return craft_materials
+def calc_prodcost(craftable):
+    """
+    Calculates the production cost for a given Item Object. If there are other craftable Items as needed as material,
+    then this method is RECURSIVELY called.
+    """
+    prod_cost = 0
+    materials = eval(craftable.craft_materials)
+
+    for material, quantity in materials.items():
+        if 'Minimum Bench Cost' in material:
+            partial_cost = workbench_cost[material] * int(quantity)
+            prod_cost = prod_cost + partial_cost
+            #print(f'{material} costs: {partial_cost}')
+            if material not in craftable.buy_dict:
+                craftable.buy_dict[material] = int(quantity)
+            else:
+                craftable.buy_dict[material] = craftable.buy_dict[material] + int(quantity)
+        elif material in resources.keys():
+            partial_cost = resources[material].unit_price * int(quantity)
+            prod_cost = prod_cost + partial_cost
+            #print(f'{material} costs: {partial_cost}')
+            if material not in craftable.buy_dict:
+                craftable.buy_dict[material] = int(quantity)
+            else:
+                craftable.buy_dict[material] = craftable.buy_dict[material] + int(quantity)
+        elif material not in resources.keys():
+
+            craftables[material].prod_cost, buy, craft = calc_prodcost(craftables[material])
+
+            print(f'{material} value is: {craftables[material].value}')
+            print(f'{material} Prod Cost is: {craftables[material].prod_cost}')
 
 
-x = get_craft_materials(common[1])
-for k, v in x.items():
-    print('Material: {} / Ammount: {}'.format(k, v))
+            if float(craftables[material].prod_cost) < float(craftables[material].value):
+                prod_cost = prod_cost + craftables[material].prod_cost
+                if material not in craftable.buy_dict:
+                    craftable.craft_dict[material] = int(quantity)
+                else:
+                    craftable.craft_dict[material] = craftable.craft_dict[material] + int(quantity)
+            else:
+                prod_cost = prod_cost + float(craftables[material].value)
+                if material not in craftable.buy_dict:
+                    craftable.buy_dict[material] = int(quantity)
+                else:
+                    craftable.buy_dict[material] = craftable.buy_dict[material] + int(quantity)
+
+                #print(f'{material} costs: {partial_cost}')
+    return [prod_cost, craftable.buy_dict, craftable.craft_dict]
+
+with open(resources_file, 'r') as file:
+    for line in file.readlines():
+        resources[line.split(';')[1]] = Resource(line.strip())
+file.close()
+
+with open(craftables_file, 'r') as file:
+    for line in file.readlines():
+        craftables[line.split(';')[1]] = Craftable(line.strip())
+file.close()
+
+craft = 'Borer'
+craftables[craft].prod_cost = calc_prodcost(craftables[craft])
+print(f'Total Cost for {craft}: {craftables[craft].prod_cost}')
+print(f'Min Sell Price for {craft}: {craftables[craft].value}')
+print(f'Profit for {craft}: {float(craftables[craft].value) * 0.9 - craftables[craft].prod_cost[0]}')
+print(craftables[craft].buy_dict)
+print(craftables[craft].craft_dict)
