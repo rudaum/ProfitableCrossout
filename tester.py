@@ -31,22 +31,31 @@ def calc_prodcost(craftable):
             else:
                 craftable.buy_dict[material] = craftable.buy_dict[material] + int(quantity)
         elif material not in resources.keys():
-
             craftables[material].prod_cost, buy, craft = calc_prodcost(craftables[material])
+            for k, v in buy.items():
+                if k not in craftable.buy_dict.keys():
+                    craftable.buy_dict[k] = v
+                else:
+                    craftable.buy_dict[k] = craftable.buy_dict[k] + v
+
+            for k, v in craft.items():
+                if k not in craftable.craft_dict.keys():
+                    craftable.craft_dict[k] = v
+                else:
+                    craftable.craft_dict[k] = craftable.buy_dict[k] + v
 
             print(f'{material} value is: {craftables[material].value}')
             print(f'{material} Prod Cost is: {craftables[material].prod_cost}')
 
-
             if float(craftables[material].prod_cost) < float(craftables[material].value):
                 prod_cost = prod_cost + craftables[material].prod_cost
-                if material not in craftable.buy_dict:
+                if material not in craftable.craft_dict.keys():
                     craftable.craft_dict[material] = int(quantity)
                 else:
                     craftable.craft_dict[material] = craftable.craft_dict[material] + int(quantity)
             else:
                 prod_cost = prod_cost + float(craftables[material].value)
-                if material not in craftable.buy_dict:
+                if material not in craftable.buy_dict.keys():
                     craftable.buy_dict[material] = int(quantity)
                 else:
                     craftable.buy_dict[material] = craftable.buy_dict[material] + int(quantity)
@@ -64,7 +73,7 @@ with open(craftables_file, 'r') as file:
         craftables[line.split(';')[1]] = Craftable(line.strip())
 file.close()
 
-craft = 'Borer'
+craft = 'Sidekick'
 craftables[craft].prod_cost = calc_prodcost(craftables[craft])
 print(f'Total Cost for {craft}: {craftables[craft].prod_cost}')
 print(f'Min Sell Price for {craft}: {craftables[craft].value}')

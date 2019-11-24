@@ -1,169 +1,169 @@
-/item/1;Thunderbolt;252.99;Lunatics;Epic;Shotgun;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Blastoff': '2', 'Sledgehammer': '2', 'Spitfire': '2', 'Epic Minimum Bench Cost': '1'}
-/item/2;Sledgehammer;44.50;Lunatics;Rare;Shotgun;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Lupara': '2', 'Car jack': '1', 'Rare Minimum Bench Cost': '1'}
-/item/3;Hammerfall;1760.00;Lunatics;Legendary;Shotgun;{'Scrap Metal x100': '100', 'Copper x100': '750', 'Batteries x100': '750', 'Electronics x100': '750', 'Thunderbolt': '2', 'Cheetah': '2', 'RD-2 Keen': '1', 'Legendary Minimum Bench Cost': '1'}
-/item/4;Spitfire;34.73;Engineers;Rare;Shotgun;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Medium wheel': '1', 'Car jack': '1', 'Lupara': '1', 'Rare Minimum Bench Cost': '1'}
-/item/5;Lupara;1.24;Engineers;Common;Shotgun;{'Scrap Metal x100': '30'}
-/item/6;Pyre;320.00;Scavanger;Epic;Homing missile;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Judge 76mm': '2', 'PU-1 Charge': '2', 'Fuel tank': '2', 'Epic Minimum Bench Cost': '1'}
-/item/7;Vector;39.60;Nomads;Rare;Machine gun;{'Scrap Metal x100': '600', 'Copper x100': '150', 'LM-54 Chord': '1', 'Car jack': '1', 'Medium wheel ST': '1', 'Rare Minimum Bench Cost': '1'}
-/item/8;ZS-34 Fat Man;257.62;Scavanger;Epic;Turret cannon;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Twin wheel ST': '2', 'Large wheel': '2', 'Little Boy 6LB': '2', 'Epic Minimum Bench Cost': '1'}
-/item/30;GL-55 Impulse;300.00;Scavanger;Epic;Grenade launcher;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Trucker': '2', 'Spitfire': '2', 'PU-1 Charge': '2', 'Epic Minimum Bench Cost': '1'}
-/item/31;MG13 Equalizer;359.65;Nomads;Epic;Minigun;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'AC43 Rapier': '2', 'Vector': '2', 'ST-M23 Defender': '2', 'Epic Minimum Bench Cost': '1'}
-/item/32;AC72 Whirlwind;289.94;Nomads;Epic;Auto-cannon;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Wyvern': '2', 'Chameleon': '2', 'AC43 Rapier': '2', 'Epic Minimum Bench Cost': '1'}
-/item/33;Reaper;2020.00;Nomads;Legendary;Minigun;{'Scrap Metal x100': '100', 'Copper x100': '750', 'Batteries x100': '750', 'Electronics x100': '750', 'AC72 Whirlwind': '2', 'Small track': '2', 'Colossus': '1', 'Legendary Minimum Bench Cost': '1'}
-/item/34;AC43 Rapier;33.00;Engineers;Rare;Auto-cannon;{'Scrap Metal x100': '600', 'Copper x100': '150', 'RS-1 Ruby': '1', 'B-1 Aviator': '1', 'LM-54 Chord': '1', 'Rare Minimum Bench Cost': '1'}
-/item/38;Cricket 1M;299.97;Lunatics;Epic;Unguided rocket;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Spitfire': '2', 'Boom': '2', 'Wasp': '2', 'Epic Minimum Bench Cost': '1'}
-/item/39;Trucker;46.65;Scavanger;Rare;Heavy cabin;{'Scrap Metal x100': '650', 'Copper x100': '150', 'R-1 Breeze': '1', 'Avenger 57mm': '1', 'Docker': '1', 'Rare Minimum Bench Cost': '1'}
-/item/40;Spectre-2;233.33;Nomads;Epic;Machine gun;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Vector': '2', 'AD-12 Falcon': '2', 'Ammo pack': '2', 'Epic Minimum Bench Cost': '1'}
-/item/41;PU-1 Charge;39.86;Scavanger;Rare;Generator;{'Scrap Metal x100': '650', 'Copper x100': '150', 'Sprinter': '1', 'RS-1 Ruby': '1', 'Fuel barrel': '1', 'Rare Minimum Bench Cost': '1'}
-/item/42;Armored track;358.97;Scavanger;Epic;Track;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Large wheel': '2', 'Large wheel ST': '2', 'Balloon tyre': '2', 'Epic Minimum Bench Cost': '1'}
-/item/44;Wasp;43.00;Lunatics;Rare;Unguided rocket;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Fuel barrel': '1', 'Avenger 57mm': '1', 'B-1 Aviator': '1', 'Rare Minimum Bench Cost': '1'}
+/item/1;Thunderbolt;249.37;Lunatics;Epic;Shotgun;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Blastoff': '2', 'Sledgehammer': '2', 'Spitfire': '2', 'Epic Minimum Bench Cost': '1'}
+/item/2;Sledgehammer;46.37;Lunatics;Rare;Shotgun;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Lupara': '2', 'Car jack': '1', 'Rare Minimum Bench Cost': '1'}
+/item/3;Hammerfall;1820.00;Lunatics;Legendary;Shotgun;{'Scrap Metal x100': '100', 'Copper x100': '750', 'Batteries x100': '750', 'Electronics x100': '750', 'Thunderbolt': '2', 'Cheetah': '2', 'RD-2 Keen': '1', 'Legendary Minimum Bench Cost': '1'}
+/item/4;Spitfire;33.34;Engineers;Rare;Shotgun;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Medium wheel': '1', 'Car jack': '1', 'Lupara': '1', 'Rare Minimum Bench Cost': '1'}
+/item/5;Lupara;1.39;Engineers;Common;Shotgun;{'Scrap Metal x100': '30'}
+/item/6;Pyre;334.99;Scavanger;Epic;Homing missile;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Judge 76mm': '2', 'PU-1 Charge': '2', 'Fuel tank': '2', 'Epic Minimum Bench Cost': '1'}
+/item/7;Vector;36.66;Nomads;Rare;Machine gun;{'Scrap Metal x100': '600', 'Copper x100': '150', 'LM-54 Chord': '1', 'Car jack': '1', 'Medium wheel ST': '1', 'Rare Minimum Bench Cost': '1'}
+/item/8;ZS-34 Fat Man;250.00;Scavanger;Epic;Turret cannon;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Twin wheel ST': '2', 'Large wheel': '2', 'Little Boy 6LB': '2', 'Epic Minimum Bench Cost': '1'}
+/item/30;GL-55 Impulse;310.00;Scavanger;Epic;Grenade launcher;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Trucker': '2', 'Spitfire': '2', 'PU-1 Charge': '2', 'Epic Minimum Bench Cost': '1'}
+/item/31;MG13 Equalizer;360.00;Nomads;Epic;Minigun;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'AC43 Rapier': '2', 'Vector': '2', 'ST-M23 Defender': '2', 'Epic Minimum Bench Cost': '1'}
+/item/32;AC72 Whirlwind;303.32;Nomads;Epic;Auto-cannon;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Wyvern': '2', 'Chameleon': '2', 'AC43 Rapier': '2', 'Epic Minimum Bench Cost': '1'}
+/item/33;Reaper;2037.00;Nomads;Legendary;Minigun;{'Scrap Metal x100': '100', 'Copper x100': '750', 'Batteries x100': '750', 'Electronics x100': '750', 'AC72 Whirlwind': '2', 'Small track': '2', 'Colossus': '1', 'Legendary Minimum Bench Cost': '1'}
+/item/34;AC43 Rapier;31.88;Engineers;Rare;Auto-cannon;{'Scrap Metal x100': '600', 'Copper x100': '150', 'RS-1 Ruby': '1', 'B-1 Aviator': '1', 'LM-54 Chord': '1', 'Rare Minimum Bench Cost': '1'}
+/item/38;Cricket 1M;300.00;Lunatics;Epic;Unguided rocket;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Spitfire': '2', 'Boom': '2', 'Wasp': '2', 'Epic Minimum Bench Cost': '1'}
+/item/39;Trucker;48.39;Scavanger;Rare;Heavy cabin;{'Scrap Metal x100': '650', 'Copper x100': '150', 'R-1 Breeze': '1', 'Avenger 57mm': '1', 'Docker': '1', 'Rare Minimum Bench Cost': '1'}
+/item/40;Spectre-2;240.50;Nomads;Epic;Machine gun;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Vector': '2', 'AD-12 Falcon': '2', 'Ammo pack': '2', 'Epic Minimum Bench Cost': '1'}
+/item/41;PU-1 Charge;39.45;Scavanger;Rare;Generator;{'Scrap Metal x100': '650', 'Copper x100': '150', 'Sprinter': '1', 'RS-1 Ruby': '1', 'Fuel barrel': '1', 'Rare Minimum Bench Cost': '1'}
+/item/42;Armored track;359.00;Scavanger;Epic;Track;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Large wheel': '2', 'Large wheel ST': '2', 'Balloon tyre': '2', 'Epic Minimum Bench Cost': '1'}
+/item/44;Wasp;35.91;Lunatics;Rare;Unguided rocket;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Fuel barrel': '1', 'Avenger 57mm': '1', 'B-1 Aviator': '1', 'Rare Minimum Bench Cost': '1'}
 /item/45;Executioner 88mm;319.99;Scavanger;Epic;Cannon;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Trucker': '2', 'Twin wheel': '2', 'Little Boy 6LB': '2', 'Epic Minimum Bench Cost': '1'}
-/item/46;Harvester;1624.97;Lunatics;Legendary;Melee weapon;{'Scrap Metal x100': '100', 'Copper x100': '750', 'Batteries x100': '750', 'Electronics x100': '750', 'Druzhba 2': '2', 'Expanded ammo pack': '2', 'RN Seal': '1', 'Legendary Minimum Bench Cost': '1'}
-/item/47;Mammoth;1820.49;Scavanger;Legendary;Turret cannon;{'Scrap Metal x100': '100', 'Copper x100': '750', 'Batteries x100': '750', 'Electronics x100': '750', 'ZS-34 Fat Man': '2', 'Hermes': '2', 'Spectre-2': '1', 'Legendary Minimum Bench Cost': '1'}
-/item/48;Gasgen;344.98;Lunatics;Epic;Generator;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Fuel tank': '2', 'Studded wheel': '2', 'Wasp': '2', 'Epic Minimum Bench Cost': '1'}
-/item/49;Scorpion;23900.00;Engineers;Relic;Pulse accelerator;{'Uranium ore x100': '600', 'Copper x100': '1000', 'Batteries x100': '1000', 'Electronics x100': '1000', 'Reaper': '1', 'Hammerfall': '1', 'Relic Minimum Bench Cost': '1'}
-/item/51;Borer;36.51;Scavanger;Rare;Melee weapon;{'Scrap Metal x100': '600', 'Copper x100': '150', 'LM-54 Chord': '1', 'Car jack': '1', 'R-1 Breeze': '1', 'Rare Minimum Bench Cost': '1'}
-/item/52;Ampere;43.40;Nomads;Rare;Generator;{'Scrap Metal x100': '650', 'Copper x100': '150', 'WWT1': '1', 'Huntsman': '1', 'B-1 Aviator': '1', 'Rare Minimum Bench Cost': '1'}
-/item/54;Hurricane;2021.98;Scavanger;Legendary;Homing missile volley;{'Scrap Metal x100': '100', 'Copper x100': '750', 'Batteries x100': '750', 'Electronics x100': '750', 'Pyre': '2', 'Doppler': '2', 'Lancelot': '1', 'Legendary Minimum Bench Cost': '1'}
-/item/55;Retcher;1985.00;Nomads;Legendary;Grenade launcher;{'Scrap Metal x100': '100', 'Copper x100': '750', 'Batteries x100': '750', 'Electronics x100': '750', 'Cricket 1M': '1', 'GL-55 Impulse': '2', 'MG13 Equalizer': '2', 'Legendary Minimum Bench Cost': '1'}
-/item/56;Porcupine;23800.00;Engineers;Relic;Minelayer;{'Uranium ore x100': '600', 'Copper x100': '1000', 'Batteries x100': '1000', 'Electronics x100': '1000', 'Hurricane': '1', 'Retcher': '1', 'Relic Minimum Bench Cost': '1'}
-/item/59;Studded wheel ST;36.30;Lunatics;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Small wheel ST': '1', 'Medium wheel ST': '1', 'Radio': '1', 'Rare Minimum Bench Cost': '1'}
-/item/60;Growl;36.90;Lunatics;Rare;Light cabin;{'Scrap Metal x100': '650', 'Copper x100': '150', 'Docker': '1', 'Fuel barrel': '2', 'Rare Minimum Bench Cost': '1'}
-/item/61;Little Boy 6LB;31.27;Engineers;Rare;Turret cannon;{'Scrap Metal x100': '600', 'Copper x100': '150', 'RS-1 Ruby': '1', 'B-1 Aviator': '1', 'Avenger 57mm': '1', 'Rare Minimum Bench Cost': '1'}
-/item/62;Small track;330.00;Lunatics;Epic;Track;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Chained wheel': '2', 'Chained wheel ST': '2', 'Balloon tyre': '2', 'Epic Minimum Bench Cost': '1'}
-/item/63;Hardened track;344.98;Nomads;Epic;Track;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Racing wheel': '2', 'Landing gear': '2', 'Balloon tyre ST': '2', 'Epic Minimum Bench Cost': '1'}
-/item/64;Wyvern;30.00;Nomads;Rare;Medium cabin;{'Scrap Metal x100': '650', 'Copper x100': '150', 'Huntsman': '1', 'Car jack': '1', 'Lupara': '1', 'Rare Minimum Bench Cost': '1'}
-/item/65;Razorback;36.00;Scavanger;Rare;Engine;{'Scrap Metal x100': '650', 'Copper x100': '150', 'Fuel barrel': '1', 'Huntsman': '1', 'Docker': '1', 'Rare Minimum Bench Cost': '1'}
-/item/66;Shiver;331.80;Lunatics;Epic;Cooler;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'CS Taymyr': '2', 'Growl': '2', 'Chained wheel': '2', 'Epic Minimum Bench Cost': '1'}
-/item/68;Ammo pack;30.64;Engineers;Rare;Ammunition;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Car jack': '1', 'Radio': '1', 'R-1 Breeze': '1', 'Rare Minimum Bench Cost': '1'}
-/item/69;TS-1 Horizon;31.98;Engineers;Rare;Visor;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Radio': '1', 'Small wheel': '1', 'Medium wheel': '1', 'Rare Minimum Bench Cost': '1'}
-/item/70;Judge 76mm;40.00;Scavanger;Rare;Cannon;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Medium wheel ST': '1', 'Avenger 57mm': '2', 'Rare Minimum Bench Cost': '1'}
-/item/71;Cheetah;237.99;Nomads;Epic;Engine;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Dun horse': '2', 'CS Taymyr': '2', 'Wyvern': '2', 'Epic Minimum Bench Cost': '1'}
-/item/72;Boom;38.96;Lunatics;Rare;Proximity mine;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Avenger 57mm': '1', 'R-1 Breeze': '1', 'RS-1 Ruby': '1', 'Rare Minimum Bench Cost': '1'}
-/item/73;Buzzsaw;40.20;Lunatics;Rare;Melee weapon;{'Scrap Metal x100': '600', 'Copper x100': '150', 'LM-54 Chord': '1', 'Medium wheel ST': '1', 'R-1 Breeze': '1', 'Rare Minimum Bench Cost': '1'}
-/item/74;ST-M23 Defender;44.40;Nomads;Rare;Frontal machine gun;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Lupara': '1', 'R-1 Breeze': '1', 'Medium wheel ST': '1', 'Rare Minimum Bench Cost': '1'}
+/item/46;Harvester;1595.99;Lunatics;Legendary;Melee weapon;{'Scrap Metal x100': '100', 'Copper x100': '750', 'Batteries x100': '750', 'Electronics x100': '750', 'Druzhba 2': '2', 'Expanded ammo pack': '2', 'RN Seal': '1', 'Legendary Minimum Bench Cost': '1'}
+/item/47;Mammoth;1840.00;Scavanger;Legendary;Turret cannon;{'Scrap Metal x100': '100', 'Copper x100': '750', 'Batteries x100': '750', 'Electronics x100': '750', 'ZS-34 Fat Man': '2', 'Hermes': '2', 'Spectre-2': '1', 'Legendary Minimum Bench Cost': '1'}
+/item/48;Gasgen;353.97;Lunatics;Epic;Generator;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Fuel tank': '2', 'Studded wheel': '2', 'Wasp': '2', 'Epic Minimum Bench Cost': '1'}
+/item/49;Scorpion;23960.00;Engineers;Relic;Pulse accelerator;{'Uranium ore x100': '600', 'Copper x100': '1000', 'Batteries x100': '1000', 'Electronics x100': '1000', 'Reaper': '1', 'Hammerfall': '1', 'Relic Minimum Bench Cost': '1'}
+/item/51;Borer;37.86;Scavanger;Rare;Melee weapon;{'Scrap Metal x100': '600', 'Copper x100': '150', 'LM-54 Chord': '1', 'Car jack': '1', 'R-1 Breeze': '1', 'Rare Minimum Bench Cost': '1'}
+/item/52;Ampere;46.89;Nomads;Rare;Generator;{'Scrap Metal x100': '650', 'Copper x100': '150', 'WWT1': '1', 'Huntsman': '1', 'B-1 Aviator': '1', 'Rare Minimum Bench Cost': '1'}
+/item/54;Hurricane;1999.99;Scavanger;Legendary;Homing missile volley;{'Scrap Metal x100': '100', 'Copper x100': '750', 'Batteries x100': '750', 'Electronics x100': '750', 'Pyre': '2', 'Doppler': '2', 'Lancelot': '1', 'Legendary Minimum Bench Cost': '1'}
+/item/55;Retcher;2017.99;Nomads;Legendary;Grenade launcher;{'Scrap Metal x100': '100', 'Copper x100': '750', 'Batteries x100': '750', 'Electronics x100': '750', 'Cricket 1M': '1', 'GL-55 Impulse': '2', 'MG13 Equalizer': '2', 'Legendary Minimum Bench Cost': '1'}
+/item/56;Porcupine;24899.88;Engineers;Relic;Minelayer;{'Uranium ore x100': '600', 'Copper x100': '1000', 'Batteries x100': '1000', 'Electronics x100': '1000', 'Hurricane': '1', 'Retcher': '1', 'Relic Minimum Bench Cost': '1'}
+/item/59;Studded wheel ST;37.90;Lunatics;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Small wheel ST': '1', 'Medium wheel ST': '1', 'Radio': '1', 'Rare Minimum Bench Cost': '1'}
+/item/60;Growl;42.25;Lunatics;Rare;Light cabin;{'Scrap Metal x100': '650', 'Copper x100': '150', 'Docker': '1', 'Fuel barrel': '2', 'Rare Minimum Bench Cost': '1'}
+/item/61;Little Boy 6LB;30.00;Engineers;Rare;Turret cannon;{'Scrap Metal x100': '600', 'Copper x100': '150', 'RS-1 Ruby': '1', 'B-1 Aviator': '1', 'Avenger 57mm': '1', 'Rare Minimum Bench Cost': '1'}
+/item/62;Small track;347.85;Lunatics;Epic;Track;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Chained wheel': '2', 'Chained wheel ST': '2', 'Balloon tyre': '2', 'Epic Minimum Bench Cost': '1'}
+/item/63;Hardened track;347.00;Nomads;Epic;Track;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Racing wheel': '2', 'Landing gear': '2', 'Balloon tyre ST': '2', 'Epic Minimum Bench Cost': '1'}
+/item/64;Wyvern;30.48;Nomads;Rare;Medium cabin;{'Scrap Metal x100': '650', 'Copper x100': '150', 'Huntsman': '1', 'Car jack': '1', 'Lupara': '1', 'Rare Minimum Bench Cost': '1'}
+/item/65;Razorback;43.88;Scavanger;Rare;Engine;{'Scrap Metal x100': '650', 'Copper x100': '150', 'Fuel barrel': '1', 'Huntsman': '1', 'Docker': '1', 'Rare Minimum Bench Cost': '1'}
+/item/66;Shiver;339.84;Lunatics;Epic;Cooler;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'CS Taymyr': '2', 'Growl': '2', 'Chained wheel': '2', 'Epic Minimum Bench Cost': '1'}
+/item/68;Ammo pack;31.37;Engineers;Rare;Ammunition;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Car jack': '1', 'Radio': '1', 'R-1 Breeze': '1', 'Rare Minimum Bench Cost': '1'}
+/item/69;TS-1 Horizon;31.17;Engineers;Rare;Visor;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Radio': '1', 'Small wheel': '1', 'Medium wheel': '1', 'Rare Minimum Bench Cost': '1'}
+/item/70;Judge 76mm;39.89;Scavanger;Rare;Cannon;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Medium wheel ST': '1', 'Avenger 57mm': '2', 'Rare Minimum Bench Cost': '1'}
+/item/71;Cheetah;247.90;Nomads;Epic;Engine;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Dun horse': '2', 'CS Taymyr': '2', 'Wyvern': '2', 'Epic Minimum Bench Cost': '1'}
+/item/72;Boom;37.99;Lunatics;Rare;Proximity mine;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Avenger 57mm': '1', 'R-1 Breeze': '1', 'RS-1 Ruby': '1', 'Rare Minimum Bench Cost': '1'}
+/item/73;Buzzsaw;37.85;Lunatics;Rare;Melee weapon;{'Scrap Metal x100': '600', 'Copper x100': '150', 'LM-54 Chord': '1', 'Medium wheel ST': '1', 'R-1 Breeze': '1', 'Rare Minimum Bench Cost': '1'}
+/item/74;ST-M23 Defender;38.47;Nomads;Rare;Frontal machine gun;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Lupara': '1', 'R-1 Breeze': '1', 'Medium wheel ST': '1', 'Rare Minimum Bench Cost': '1'}
 /item/75;Expanded ammo pack;344.45;Scavanger;Epic;Ammunition;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Ammo pack': '2', 'Borer': '2', 'DT Cobra': '2', 'Epic Minimum Bench Cost': '1'}
-/item/77;Big G;42.94;Lunatics;Rare;Generator;{'Scrap Metal x100': '650', 'Copper x100': '150', 'B-1 Aviator': '1', 'Car jack': '1', 'R-1 Breeze': '1', 'Rare Minimum Bench Cost': '1'}
-/item/78;CS Taymyr;35.38;Engineers;Rare;Cooler;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Huntsman': '1', 'RS-1 Ruby': '1', 'R-1 Breeze': '1', 'Rare Minimum Bench Cost': '1'}
-/item/79;MD-3 Owl;377.28;Nomads;Epic;Drone;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'AD-12 Falcon': '2', 'TS-1 Horizon': '2', 'Ampere': '2', 'Epic Minimum Bench Cost': '1'}
-/item/80;Hardcore;34.00;Lunatics;Rare;Engine;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Huntsman': '1', 'Sprinter': '1', 'B-1 Aviator': '1', 'Rare Minimum Bench Cost': '1'}
-/item/82;Chameleon Mk2;357.98;Nomads;Epic;Stealth;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Racing wheel ST': '2', 'TS-1 Horizon': '2', 'Chameleon': '2', 'Epic Minimum Bench Cost': '1'}
-/item/83;Twin wheel ST;38.99;Scavanger;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Sprinter': '1', 'Docker': '1', 'Medium wheel ST': '1', 'Rare Minimum Bench Cost': '1'}
-/item/84;Lancelot;359.34;Lunatics;Epic;Proximity mine;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Studded wheel': '2', 'CS Taymyr': '2', 'Boom': '2', 'Epic Minimum Bench Cost': '1'}
-/item/86;RN Seal;369.50;Nomads;Epic;Radiator;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Maxwell': '2', 'Ampere': '2', 'R-2 Chill': '2', 'Epic Minimum Bench Cost': '1'}
-/item/87;Chained wheel ST;27.38;Lunatics;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Medium wheel ST': '1', 'Fuel barrel': '1', 'WWT1': '1', 'Rare Minimum Bench Cost': '1'}
-/item/88;WWT1;3.50;Engineers;Common;Medium cabin;{'Scrap Metal x100': '75'}
-/item/91;Twin wheel;45.07;Scavanger;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Medium wheel': '2', 'Docker': '1', 'Rare Minimum Bench Cost': '1'}
-/item/92;Druzhba 2;213.89;Lunatics;Epic;Melee weapon;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Studded wheel ST': '2', 'R-2 Chill': '2', 'Buzzsaw': '2', 'Epic Minimum Bench Cost': '1'}
-/item/93;LM-54 Chord;0.31;Engineers;Common;Machine gun;{'Scrap Metal x100': '30'}
-/item/94;AD-12 Falcon;42.64;Nomads;Rare;Drone;{'Scrap Metal x100': '600', 'Copper x100': '150', 'RS-1 Ruby': '1', 'Radio': '1', 'LM-54 Chord': '1', 'Rare Minimum Bench Cost': '1'}
-/item/96;Docker;2.59;Engineers;Common;Heavy cabin;{'Scrap Metal x100': '75'}
+/item/77;Big G;49.74;Lunatics;Rare;Generator;{'Scrap Metal x100': '650', 'Copper x100': '150', 'B-1 Aviator': '1', 'Car jack': '1', 'R-1 Breeze': '1', 'Rare Minimum Bench Cost': '1'}
+/item/78;CS Taymyr;32.50;Engineers;Rare;Cooler;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Huntsman': '1', 'RS-1 Ruby': '1', 'R-1 Breeze': '1', 'Rare Minimum Bench Cost': '1'}
+/item/79;MD-3 Owl;365.00;Nomads;Epic;Drone;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'AD-12 Falcon': '2', 'TS-1 Horizon': '2', 'Ampere': '2', 'Epic Minimum Bench Cost': '1'}
+/item/80;Hardcore;32.00;Lunatics;Rare;Engine;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Huntsman': '1', 'Sprinter': '1', 'B-1 Aviator': '1', 'Rare Minimum Bench Cost': '1'}
+/item/82;Chameleon Mk2;361.12;Nomads;Epic;Stealth;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Racing wheel ST': '2', 'TS-1 Horizon': '2', 'Chameleon': '2', 'Epic Minimum Bench Cost': '1'}
+/item/83;Twin wheel ST;37.99;Scavanger;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Sprinter': '1', 'Docker': '1', 'Medium wheel ST': '1', 'Rare Minimum Bench Cost': '1'}
+/item/84;Lancelot;350.44;Lunatics;Epic;Proximity mine;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Studded wheel': '2', 'CS Taymyr': '2', 'Boom': '2', 'Epic Minimum Bench Cost': '1'}
+/item/86;RN Seal;363.00;Nomads;Epic;Radiator;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Maxwell': '2', 'Ampere': '2', 'R-2 Chill': '2', 'Epic Minimum Bench Cost': '1'}
+/item/87;Chained wheel ST;27.30;Lunatics;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Medium wheel ST': '1', 'Fuel barrel': '1', 'WWT1': '1', 'Rare Minimum Bench Cost': '1'}
+/item/88;WWT1;3.66;Engineers;Common;Medium cabin;{'Scrap Metal x100': '75'}
+/item/91;Twin wheel;44.90;Scavanger;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Medium wheel': '2', 'Docker': '1', 'Rare Minimum Bench Cost': '1'}
+/item/92;Druzhba 2;219.00;Lunatics;Epic;Melee weapon;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Studded wheel ST': '2', 'R-2 Chill': '2', 'Buzzsaw': '2', 'Epic Minimum Bench Cost': '1'}
+/item/93;LM-54 Chord;0.37;Engineers;Common;Machine gun;{'Scrap Metal x100': '30'}
+/item/94;AD-12 Falcon;35.00;Nomads;Rare;Drone;{'Scrap Metal x100': '600', 'Copper x100': '150', 'RS-1 Ruby': '1', 'Radio': '1', 'LM-54 Chord': '1', 'Rare Minimum Bench Cost': '1'}
+/item/96;Docker;3.26;Engineers;Common;Heavy cabin;{'Scrap Metal x100': '75'}
 /item/99;Avenger 57mm;1.43;Engineers;Common;Cannon;{'Scrap Metal x100': '30'}
-/item/100;Chameleon;47.96;Nomads;Rare;Stealth;{'Scrap Metal x100': '600', 'Copper x100': '150', 'RS-1 Ruby': '1', 'Fuel barrel': '1', 'Huntsman': '1', 'Rare Minimum Bench Cost': '1'}
-/item/101;Apollo IV;2080.00;Dawn's Children;Legendary;Generator;{'Scrap Metal x100': '100', 'Batteries x100': '750', 'Electronics x100': '750', 'Copper x100': '750', 'Gasgen': '2', 'Armored track': '2', 'Quantum': '1', 'Legendary Minimum Bench Cost': '1'}
-/item/104;Studded wheel;44.40;Lunatics;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Small wheel': '1', 'Medium wheel': '1', 'Radio': '1', 'Rare Minimum Bench Cost': '1'}
-/item/107;B-1 Aviator;2.79;Engineers;Common;Booster;{'Scrap Metal x100': '55'}
-/item/108;R-2 Chill;29.98;Engineers;Rare;Radiator;{'Scrap Metal x100': '600', 'Copper x100': '150', 'R-1 Breeze': '1', 'B-1 Aviator': '1', 'Car jack': '1', 'Rare Minimum Bench Cost': '1'}
-/item/109;R-1 Breeze;0.69;Engineers;Common;Radiator;{'Scrap Metal x100': '20'}
-/item/112;Dun horse;47.87;Nomads;Rare;Engine;{'Scrap Metal x100': '650', 'Copper x100': '150', 'Docker': '1', 'Car jack': '1', 'B-1 Aviator': '1', 'Rare Minimum Bench Cost': '1'}
-/item/113;Large wheel ST;37.10;Scavanger;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Medium wheel ST': '1', 'Docker': '1', 'WWT1': '1', 'Rare Minimum Bench Cost': '1'}
-/item/116;Large wheel;39.98;Scavanger;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Medium wheel': '1', 'Docker': '1', 'Sprinter': '1', 'Rare Minimum Bench Cost': '1'}
-/item/117;Colossus;359.99;Scavanger;Epic;Engine;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Razorback': '2', 'Twin wheel': '2', 'Fuel tank': '2', 'Epic Minimum Bench Cost': '1'}
-/item/120;Huntsman;2.41;Engineers;Common;Medium cabin;{'Scrap Metal x100': '75'}
-/item/121;Chained wheel;35.86;Lunatics;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Medium wheel': '1', 'WWT1': '1', 'Small wheel': '1', 'Rare Minimum Bench Cost': '1'}
-/item/122;Doppler;339.99;Nomads;Epic;Radar;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Maxwell': '2', 'Balloon tyre ST': '2', 'Landing gear ST': '2', 'Epic Minimum Bench Cost': '1'}
-/item/123;DT Cobra;39.48;Scavanger;Rare;Turret;{'Scrap Metal x100': '600', 'Copper x100': '150', 'LM-54 Chord': '1', 'Radio': '2', 'Rare Minimum Bench Cost': '1'}
-/item/124;RT Anaconda;219.56;Scavanger;Epic;Turret;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'DT Cobra': '2', 'TS-1 Horizon': '2', 'Judge 76mm': '2', 'Epic Minimum Bench Cost': '1'}
+/item/100;Chameleon;47.22;Nomads;Rare;Stealth;{'Scrap Metal x100': '600', 'Copper x100': '150', 'RS-1 Ruby': '1', 'Fuel barrel': '1', 'Huntsman': '1', 'Rare Minimum Bench Cost': '1'}
+/item/101;Apollo IV;2148.96;Dawn's Children;Legendary;Generator;{'Scrap Metal x100': '100', 'Batteries x100': '750', 'Electronics x100': '750', 'Copper x100': '750', 'Gasgen': '2', 'Armored track': '2', 'Quantum': '1', 'Legendary Minimum Bench Cost': '1'}
+/item/104;Studded wheel;38.97;Lunatics;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Small wheel': '1', 'Medium wheel': '1', 'Radio': '1', 'Rare Minimum Bench Cost': '1'}
+/item/107;B-1 Aviator;2.76;Engineers;Common;Booster;{'Scrap Metal x100': '55'}
+/item/108;R-2 Chill;29.89;Engineers;Rare;Radiator;{'Scrap Metal x100': '600', 'Copper x100': '150', 'R-1 Breeze': '1', 'B-1 Aviator': '1', 'Car jack': '1', 'Rare Minimum Bench Cost': '1'}
+/item/109;R-1 Breeze;0.64;Engineers;Common;Radiator;{'Scrap Metal x100': '20'}
+/item/112;Dun horse;49.00;Nomads;Rare;Engine;{'Scrap Metal x100': '650', 'Copper x100': '150', 'Docker': '1', 'Car jack': '1', 'B-1 Aviator': '1', 'Rare Minimum Bench Cost': '1'}
+/item/113;Large wheel ST;36.99;Scavanger;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Medium wheel ST': '1', 'Docker': '1', 'WWT1': '1', 'Rare Minimum Bench Cost': '1'}
+/item/116;Large wheel;32.00;Scavanger;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Medium wheel': '1', 'Docker': '1', 'Sprinter': '1', 'Rare Minimum Bench Cost': '1'}
+/item/117;Colossus;358.00;Scavanger;Epic;Engine;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Razorback': '2', 'Twin wheel': '2', 'Fuel tank': '2', 'Epic Minimum Bench Cost': '1'}
+/item/120;Huntsman;2.43;Engineers;Common;Medium cabin;{'Scrap Metal x100': '75'}
+/item/121;Chained wheel;38.79;Lunatics;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Medium wheel': '1', 'WWT1': '1', 'Small wheel': '1', 'Rare Minimum Bench Cost': '1'}
+/item/122;Doppler;349.00;Nomads;Epic;Radar;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Maxwell': '2', 'Balloon tyre ST': '2', 'Landing gear ST': '2', 'Epic Minimum Bench Cost': '1'}
+/item/123;DT Cobra;38.89;Scavanger;Rare;Turret;{'Scrap Metal x100': '600', 'Copper x100': '150', 'LM-54 Chord': '1', 'Radio': '2', 'Rare Minimum Bench Cost': '1'}
+/item/124;RT Anaconda;245.99;Scavanger;Epic;Turret;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'DT Cobra': '2', 'TS-1 Horizon': '2', 'Judge 76mm': '2', 'Epic Minimum Bench Cost': '1'}
 /item/126;Small wheel ST;0.13;Engineers;Common;Wheel;{'Scrap Metal x100': '15'}
-/item/129;Blastoff;46.94;Lunatics;Rare;Booster;{'Scrap Metal x100': '600', 'Copper x100': '150', 'RS-1 Ruby': '1', 'Car jack': '1', 'B-1 Aviator': '1', 'Rare Minimum Bench Cost': '1'}
-/item/131;Hot red;287.77;Lunatics;Epic;Engine;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Hardcore': '2', 'Balloon tyre': '2', 'Growl': '2', 'Epic Minimum Bench Cost': '1'}
-/item/136;RD-2 Keen;290.00;Scavanger;Epic;Radar;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'RD-1 Listener': '2', 'Balloon tyre ST': '2', 'Borer': '2', 'Epic Minimum Bench Cost': '1'}
-/item/139;Fuel barrel;1.35;Engineers;Common;Special module;{'Scrap Metal x100': '60'}
-/item/142;Maxwell;36.69;Nomads;Rare;Radar;{'Scrap Metal x100': '600', 'Copper x100': '150', 'RS-1 Ruby': '2', 'Sprinter': '1', 'Rare Minimum Bench Cost': '1'}
-/item/143;Hermes;277.02;Lunatics;Epic;Booster;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Big G': '2', 'Ammo pack': '2', 'Blastoff': '2', 'Epic Minimum Bench Cost': '1'}
-/item/152;RD-1 Listener;38.19;Scavanger;Rare;Radar;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Fuel barrel': '1', 'R-1 Breeze': '1', 'RS-1 Ruby': '1', 'Rare Minimum Bench Cost': '1'}
-/item/163;Medium wheel ST;0.52;Engineers;Common;Wheel;{'Scrap Metal x100': '15'}
-/item/164;Small speaker;43.60;Engineers;Epic;Appearance;{'Scrap Metal x100': '450', 'Copper x100': '200', 'Wires x100': '100', "'Small speaker' fragment": '40'}
-/item/165;Car jack;0.78;Engineers;Common;Special module;{'Scrap Metal x100': '20'}
-/item/172;Radio;0.79;Engineers;Common;Radio;{'Scrap Metal x100': '20'}
-/item/173;RS-1 Ruby;1.18;Engineers;Common;Radar;{'Scrap Metal x100': '35'}
-/item/176;Small wheel;0.71;Engineers;Common;Wheel;{'Scrap Metal x100': '15'}
-/item/186;Medium wheel;0.80;Engineers;Common;Wheel;{'Scrap Metal x100': '15'}
+/item/129;Blastoff;43.41;Lunatics;Rare;Booster;{'Scrap Metal x100': '600', 'Copper x100': '150', 'RS-1 Ruby': '1', 'Car jack': '1', 'B-1 Aviator': '1', 'Rare Minimum Bench Cost': '1'}
+/item/131;Hot red;287.97;Lunatics;Epic;Engine;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Hardcore': '2', 'Balloon tyre': '2', 'Growl': '2', 'Epic Minimum Bench Cost': '1'}
+/item/136;RD-2 Keen;286.49;Scavanger;Epic;Radar;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'RD-1 Listener': '2', 'Balloon tyre ST': '2', 'Borer': '2', 'Epic Minimum Bench Cost': '1'}
+/item/139;Fuel barrel;1.52;Engineers;Common;Special module;{'Scrap Metal x100': '60'}
+/item/142;Maxwell;37.80;Nomads;Rare;Radar;{'Scrap Metal x100': '600', 'Copper x100': '150', 'RS-1 Ruby': '2', 'Sprinter': '1', 'Rare Minimum Bench Cost': '1'}
+/item/143;Hermes;308.09;Lunatics;Epic;Booster;{'Scrap Metal x100': '250', 'Copper x100': '450', 'Wires x100': '500', 'Plastic x100': '250', 'Big G': '2', 'Ammo pack': '2', 'Blastoff': '2', 'Epic Minimum Bench Cost': '1'}
+/item/152;RD-1 Listener;41.98;Scavanger;Rare;Radar;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Fuel barrel': '1', 'R-1 Breeze': '1', 'RS-1 Ruby': '1', 'Rare Minimum Bench Cost': '1'}
+/item/163;Medium wheel ST;0.37;Engineers;Common;Wheel;{'Scrap Metal x100': '15'}
+/item/164;Small speaker;39.89;Engineers;Epic;Appearance;{'Scrap Metal x100': '450', 'Copper x100': '200', 'Wires x100': '100', "'Small speaker' fragment": '40'}
+/item/165;Car jack;0.75;Engineers;Common;Special module;{'Scrap Metal x100': '20'}
+/item/172;Radio;0.62;Engineers;Common;Radio;{'Scrap Metal x100': '20'}
+/item/173;RS-1 Ruby;1.10;Engineers;Common;Radar;{'Scrap Metal x100': '35'}
+/item/176;Small wheel;0.75;Engineers;Common;Wheel;{'Scrap Metal x100': '15'}
+/item/186;Medium wheel;0.82;Engineers;Common;Wheel;{'Scrap Metal x100': '15'}
 /item/209;Relic container;0.00;Engineers;Relic;Crate;{'Coupons x100': '2000'}
-/item/308;Duck;49.94;Engineers;Epic;Appearance;{'Scrap Metal x100': '450', 'Copper x100': '250', 'Wires x100': '1000', "'Duck' fragment": '40'}
-/item/311;'Stop!';11.24;Engineers;Rare;Decor. Signs;{'Scrap Metal x100': '600', 'Copper x100': '100', "'Stop!' fragment": '40'}
-/item/314;'No escape';8.00;Engineers;Rare;Decor. Signs;{'Scrap Metal x100': '300', 'Copper x100': '50', "'No escape' fragment": '40'}
-/item/341;Firebug;23499.00;Engineers;Relic;Flamethrower;{'Copper x100': '1000', 'Batteries x100': '1000', 'Electronics x100': '1000', 'Uranium ore x100': '600', 'Mammoth': '1', 'Harvester': '1', 'Relic Minimum Bench Cost': '1'}
-/item/370;Repair Kit;3.50;Engineers;Common;Resource;{'Scrap Metal x100': '300', 'Copper x100': '90'}
-/item/371;Jawbreaker;40.49;Steppenwolfs;Rare;Medium cabin;{'Scrap Metal x100': '650', 'Copper x100': '150', 'Huntsman': '1', 'Sprinter': '1', 'WWT1': '1', 'Rare Minimum Bench Cost': '1'}
-/item/372;Humpback;312.09;Steppenwolfs;Epic;Heavy cabin;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Jawbreaker': '2', 'APC wheel': '2', 'Dun horse': '2', 'Epic Minimum Bench Cost': '1'}
-/item/373;Sidekick;38.98;Steppenwolfs;Rare;Drone;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Radio': '1', 'Small wheel ST': '1', 'Car jack': '1', 'Rare Minimum Bench Cost': '1'}
-/item/374;Clarinet TOW;300.00;Steppenwolfs;Epic;Unguided rocket;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'RD-1 Listener': '2', 'APC wheel': '2', 'Jawbreaker': '2', 'Epic Minimum Bench Cost': '1'}
-/item/375;Caucasus;332.97;Steppenwolfs;Epic;Machine gun;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'ST-M23 Defender': '2', 'Sidekick': '2', 'APC wheel ST': '2', 'Epic Minimum Bench Cost': '1'}
-/item/379;Racing wheel ST;26.00;Nomads;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Medium wheel ST': '2', 'Small wheel ST': '1', 'Rare Minimum Bench Cost': '1'}
-/item/380;APC wheel ST;34.98;Steppenwolfs;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Small wheel ST': '1', 'WWT1': '1', 'Fuel barrel': '1', 'Rare Minimum Bench Cost': '1'}
-/item/383;Racing wheel;32.83;Nomads;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Medium wheel': '2', 'Small wheel': '1', 'Rare Minimum Bench Cost': '1'}
-/item/384;APC wheel;36.00;Steppenwolfs;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Small wheel': '1', 'WWT1': '1', 'Fuel barrel': '1', 'Rare Minimum Bench Cost': '1'}
-/item/385;ML 200;268.60;Steppenwolfs;Epic;Mechanical Leg;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Sidekick': '2', 'APC wheel ST': '2', 'Hardcore': '2', 'Epic Minimum Bench Cost': '1'}
-/item/386;Storage expansion;232.77;Engineers;Legendary;Consumable;{'Scrap Metal x100': '100', 'Batteries x100': '200', 'Electronics x100': '200', 'Copper x100': '500', 'Legendary Minimum Bench Cost': '1'}
-/item/387;Blueprint storage;225.85;Engineers;Legendary;Consumable;{'Scrap Metal x100': '100', 'Batteries x100': '200', 'Electronics x100': '200', 'Copper x100': '500', 'Legendary Minimum Bench Cost': '1'}
-/item/388;Balloon tyre ST;30.79;Engineers;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Small wheel ST': '2', 'Medium wheel': '1', 'Rare Minimum Bench Cost': '1'}
-/item/389;Landing gear ST;34.97;Nomads;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Small wheel ST': '2', 'Medium wheel ST': '1', 'Rare Minimum Bench Cost': '1'}
-/item/390;Balloon tyre;34.23;Engineers;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Medium wheel': '2', 'Small wheel': '1', 'Rare Minimum Bench Cost': '1'}
-/item/391;Mandrake;1947.00;Steppenwolfs;Legendary;Howitzer;{'Scrap Metal x100': '100', 'Batteries x100': '750', 'Electronics x100': '750', 'Copper x100': '750', 'Humpback': '2', 'Executioner 88mm': '2', 'Hot red': '1', 'Legendary Minimum Bench Cost': '1'}
-/item/393;Pattern: Graffiti Dusk;80.00;Engineers;Epic;Paint;{'Scrap Metal x100': '450', 'Wires x100': '1000', 'Copper x100': '250', "'Graffiti Dusk' fragment": '40'}
-/item/395;Landing gear;40.38;Nomads;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Small wheel': '2', 'Medium wheel': '1', 'Rare Minimum Bench Cost': '1'}
+/item/308;Duck;52.00;Engineers;Epic;Appearance;{'Scrap Metal x100': '450', 'Copper x100': '250', 'Wires x100': '1000', "'Duck' fragment": '40'}
+/item/311;'Stop!';10.07;Engineers;Rare;Decor. Signs;{'Scrap Metal x100': '600', 'Copper x100': '100', "'Stop!' fragment": '40'}
+/item/314;'No escape';8.74;Engineers;Rare;Decor. Signs;{'Scrap Metal x100': '300', 'Copper x100': '50', "'No escape' fragment": '40'}
+/item/341;Firebug;24300.00;Engineers;Relic;Flamethrower;{'Copper x100': '1000', 'Batteries x100': '1000', 'Electronics x100': '1000', 'Uranium ore x100': '600', 'Mammoth': '1', 'Harvester': '1', 'Relic Minimum Bench Cost': '1'}
+/item/370;Repair Kit;2.93;Engineers;Common;Resource;{'Scrap Metal x100': '300', 'Copper x100': '90'}
+/item/371;Jawbreaker;39.99;Steppenwolfs;Rare;Medium cabin;{'Scrap Metal x100': '650', 'Copper x100': '150', 'Huntsman': '1', 'Sprinter': '1', 'WWT1': '1', 'Rare Minimum Bench Cost': '1'}
+/item/372;Humpback;329.84;Steppenwolfs;Epic;Heavy cabin;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Jawbreaker': '2', 'APC wheel': '2', 'Dun horse': '2', 'Epic Minimum Bench Cost': '1'}
+/item/373;Sidekick;41.79;Steppenwolfs;Rare;Drone;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Radio': '1', 'Small wheel ST': '1', 'Car jack': '1', 'Rare Minimum Bench Cost': '1'}
+/item/374;Clarinet TOW;308.99;Steppenwolfs;Epic;Unguided rocket;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'RD-1 Listener': '2', 'APC wheel': '2', 'Jawbreaker': '2', 'Epic Minimum Bench Cost': '1'}
+/item/375;Caucasus;319.99;Steppenwolfs;Epic;Machine gun;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'ST-M23 Defender': '2', 'Sidekick': '2', 'APC wheel ST': '2', 'Epic Minimum Bench Cost': '1'}
+/item/379;Racing wheel ST;25.56;Nomads;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Medium wheel ST': '2', 'Small wheel ST': '1', 'Rare Minimum Bench Cost': '1'}
+/item/380;APC wheel ST;31.60;Steppenwolfs;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Small wheel ST': '1', 'WWT1': '1', 'Fuel barrel': '1', 'Rare Minimum Bench Cost': '1'}
+/item/383;Racing wheel;31.69;Nomads;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Medium wheel': '2', 'Small wheel': '1', 'Rare Minimum Bench Cost': '1'}
+/item/384;APC wheel;35.00;Steppenwolfs;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Small wheel': '1', 'WWT1': '1', 'Fuel barrel': '1', 'Rare Minimum Bench Cost': '1'}
+/item/385;ML 200;253.00;Steppenwolfs;Epic;Mechanical Leg;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Sidekick': '2', 'APC wheel ST': '2', 'Hardcore': '2', 'Epic Minimum Bench Cost': '1'}
+/item/386;Storage expansion;229.99;Engineers;Legendary;Consumable;{'Scrap Metal x100': '100', 'Batteries x100': '200', 'Electronics x100': '200', 'Copper x100': '500', 'Legendary Minimum Bench Cost': '1'}
+/item/387;Blueprint storage;230.99;Engineers;Legendary;Consumable;{'Scrap Metal x100': '100', 'Batteries x100': '200', 'Electronics x100': '200', 'Copper x100': '500', 'Legendary Minimum Bench Cost': '1'}
+/item/388;Balloon tyre ST;28.40;Engineers;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Small wheel ST': '2', 'Medium wheel': '1', 'Rare Minimum Bench Cost': '1'}
+/item/389;Landing gear ST;36.25;Nomads;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Small wheel ST': '2', 'Medium wheel ST': '1', 'Rare Minimum Bench Cost': '1'}
+/item/390;Balloon tyre;34.06;Engineers;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Medium wheel': '2', 'Small wheel': '1', 'Rare Minimum Bench Cost': '1'}
+/item/391;Mandrake;1920.00;Steppenwolfs;Legendary;Howitzer;{'Scrap Metal x100': '100', 'Batteries x100': '750', 'Electronics x100': '750', 'Copper x100': '750', 'Humpback': '2', 'Executioner 88mm': '2', 'Hot red': '1', 'Legendary Minimum Bench Cost': '1'}
+/item/393;Pattern: Graffiti Dusk;60.00;Engineers;Epic;Paint;{'Scrap Metal x100': '450', 'Wires x100': '1000', 'Copper x100': '250', "'Graffiti Dusk' fragment": '40'}
+/item/395;Landing gear;33.75;Nomads;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Small wheel': '2', 'Medium wheel': '1', 'Rare Minimum Bench Cost': '1'}
 /item/401;Pattern: Calendar;20.99;Engineers;Rare;Paint;{'Scrap Metal x100': '600', 'Copper x100': '100', "'Calendar' fragment": '40'}
-/item/420;Paint container;150.00;Engineers;Legendary;Crate;{'Scrap Metal x100': '450', 'Wires x100': '50', 'Copper x100': '50', 'Skins Minimum Bench Cost': '1'}
-/item/433;Fuel tank;28.89;Engineers;Rare;Special module;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Fuel barrel': '3', 'Rare Minimum Bench Cost': '1'}
-/item/450;'Legend' container;18.11;Engineers;Legendary;Crate;{'Scrap Metal x100': '50', 'Coupons x100': '600'}
-/item/451;Decor container;10.53;Engineers;Common;Crate;{'Scrap Metal x100': '400'}
-/item/455;Fuze;379.98;Lunatics;Epic;Drone;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Sledgehammer': '2', 'Studded wheel ST': '2', 'AC43 Rapier': '2', 'Epic Minimum Bench Cost': '1'}
-/item/456;BC-17 Tsunami;1679.99;Steppenwolfs;Legendary;Turret cannon;{'Scrap Metal x100': '100', 'Batteries x100': '750', 'Electronics x100': '750', 'Copper x100': '750', 'Clarinet TOW': '2', 'GL-55 Impulse': '2', 'Hardened track': '1', 'Legendary Minimum Bench Cost': '1'}
-/item/457;BG2 Goblin;39.09;Lunatics;Rare;Shotgun;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Lupara': '1', 'Small wheel': '1', 'Radio': '1', 'Rare Minimum Bench Cost': '1'}
-/item/458;Material: Alligator;106.90;Engineers;Epic;Paint;{'Scrap Metal x100': '450', 'Copper x100': '250', 'Wires x100': '1000', "'Alligator' fragment": '40'}
-/item/460;Pattern: Blackboard;18.50;Engineers;Rare;Paint;{'Scrap Metal x100': '600', 'Copper x100': '100', "'Blackboard' fragment": '40'}
-/item/475;Synthesis;42.00;Dawn's Children;Rare;Plasma Emitter;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Radio': '2', 'Avenger 57mm': '1', 'Rare Minimum Bench Cost': '1'}
-/item/482;Lunar IV ST;36.68;Dawn's Children;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Small wheel ST': '2', 'Medium wheel ST': '1', 'Rare Minimum Bench Cost': '1'}
-/item/483;Lunar IV;44.29;Dawn's Children;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Small wheel': '2', 'Medium wheel': '1', 'Rare Minimum Bench Cost': '1'}
-/item/488;Neutrino;320.88;Dawn's Children;Epic;Visor;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'TS-1 Horizon': '2', 'Genesis': '2', 'Pilgrim': '2', 'Epic Minimum Bench Cost': '1'}
-/item/490;Quasar;377.78;Dawn's Children;Epic;Plasma Emitter;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Little Boy 6LB': '2', 'Synthesis': '2', 'Genesis': '2', 'Epic Minimum Bench Cost': '1'}
-/item/496;Aegis-Prime;1800.00;Dawn's Children;Legendary;Protectivefield;{'Scrap Metal x100': '100', 'Batteries x100': '750', 'Electronics x100': '750', 'Copper x100': '750', 'Barrier IX': '2', 'Chameleon Mk2': '2', 'RT Anaconda': '1', 'Legendary Minimum Bench Cost': '1'}
-/item/497;Icarus VII;361.93;Dawn's Children;Epic;Hover;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Lunar IV ST': '2', 'Lunar IV': '2', 'Big G': '2', 'Epic Minimum Bench Cost': '1'}
-/item/498;Aurora;353.93;Dawn's Children;Epic;Combat laser;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Synthesis': '2', 'Lunar IV ST': '2', 'Razorback': '2', 'Epic Minimum Bench Cost': '1'}
-/item/505;Quantum;337.00;Dawn's Children;Epic;Medium cabin;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Pilgrim': '2', 'Genesis': '2', 'Wyvern': '2', 'Epic Minimum Bench Cost': '1'}
-/item/506;Pilgrim;44.79;Dawn's Children;Rare;Medium cabin;{'Scrap Metal x100': '650', 'Copper x100': '150', 'WWT1': '1', 'Huntsman': '1', 'Sprinter': '1', 'Rare Minimum Bench Cost': '1'}
-/item/508;Barrier IX;315.00;Dawn's Children;Epic;Turret;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Pilgrim': '2', 'Lunar IV': '2', 'DT Cobra': '2', 'Epic Minimum Bench Cost': '1'}
-/item/509;Spark III;2092.20;Dawn's Children;Legendary;Tesla cannon;{'Scrap Metal x100': '100', 'Batteries x100': '750', 'Electronics x100': '750', 'Copper x100': '750', 'Shiver': '2', 'Quasar': '2', 'MD-3 Owl': '1', 'Legendary Minimum Bench Cost': '1'}
-/item/510;Genesis;45.25;Dawn's Children;Rare;Microfactory;{'Scrap Metal x100': '600', 'Copper x100': '150', 'R-1 Breeze': '2', 'Car jack': '1', 'Rare Minimum Bench Cost': '1'}
-/item/516;Material: Test Dummy;73.89;Engineers;Epic;Paint;{'Scrap Metal x100': '450', 'Copper x100': '200', 'Wires x100': '100', "'Test Dummy' fragment": '40'}
-/item/524;Fright container;180.98;Engineers;Legendary;Crate;{'Scrap Metal x100': '800', 'Copper x100': '50', 'Hazardous sweets x100': '200'}
-/item/594;Skinner;340.00;Firestarters;Epic;Harpoon cannon;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Junkbow': '2', 'Shiv ST': '2', 'Sledgehammer': '2', 'Epic Minimum Bench Cost': '1'}
-/item/595;Meat Grinder;298.99;Firestarters;Epic;Auger;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Shiv': '2', 'Shiv ST': '2', 'Buzzsaw': '2', 'Epic Minimum Bench Cost': '1'}
-/item/598;Junkbow;39.00;Firestarters;Rare;Shotgun;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Lupara': '2', 'Sprinter': '1', 'Rare Minimum Bench Cost': '1'}
-/item/599;Bat;48.99;Firestarters;Rare;Medium cabin;{'Scrap Metal x100': '650', 'Copper x100': '150', 'Huntsman': '1', 'Fuel barrel': '1', 'RS-1 Ruby': '1', 'Rare Minimum Bench Cost': '1'}
-/item/600;Shiv ST;36.47;Firestarters;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Small wheel ST': '2', 'Medium wheel ST': '1', 'Rare Minimum Bench Cost': '1'}
-/item/602;Shiv;34.98;Firestarters;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Small wheel': '2', 'Medium wheel': '1', 'Rare Minimum Bench Cost': '1'}
-/item/609;Phoenix;209.45;Firestarters;Epic;Crossbow;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Junkbow': '2', 'Shiv': '2', 'Boom': '2', 'Epic Minimum Bench Cost': '1'}
-/item/610;Bigfoot ST;347.22;Firestarters;Epic;Wheel;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Shiv ST': '2', 'Bat': '2', 'Twin wheel ST': '2', 'Epic Minimum Bench Cost': '1'}
-/item/611;Bigfoot;344.68;Firestarters;Epic;Wheel;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Shiv': '2', 'Bat': '2', 'Large wheel': '2', 'Epic Minimum Bench Cost': '1'}
-/item/612;Oppressor;311.12;Firestarters;Epic;Engine;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Bat': '2', 'Shiv': '2', 'Hardcore': '2', 'Epic Minimum Bench Cost': '1'}
-/item/613;Werewolf;335.00;Firestarters;Epic;Light cabin;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Bat': '2', 'Shiv ST': '2', 'Ampere': '2', 'Epic Minimum Bench Cost': '1'}
-/item/614;Tormentor;405.00;Firestarters;Epic;Weapon booster;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Bat': '2', 'Junkbow': '2', 'Chameleon': '2', 'Epic Minimum Bench Cost': '1'}
-/item/616;Draco;1495.00;Firestarters;Legendary;Flamethrower;{'Scrap Metal x100': '100', 'Batteries x100': '750', 'Electronics x100': '750', 'Copper x100': '750', 'Werewolf': '2', 'Thunderbolt': '2', 'RN Seal': '1', 'Legendary Minimum Bench Cost': '1'}
-/item/617;Fortune;1780.00;Firestarters;Legendary;Minelayer;{'Scrap Metal x100': '100', 'Batteries x100': '750', 'Electronics x100': '750', 'Copper x100': '750', 'Incinerator': '2', 'Cricket 1M': '2', 'Expanded ammo pack': '1', 'Legendary Minimum Bench Cost': '1'}
-/item/618;Incinerator;348.89;Firestarters;Epic;Catapult;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Shiv': '2', 'Junkbow': '2', 'Wasp': '2', 'Epic Minimum Bench Cost': '1'}
-/item/652;Cyclone;1833.34;Steppenwolfs;Legendary;Auto-cannon;{'Scrap Metal x100': '100', 'Electronics x100': '750', 'Copper x100': '750', 'Batteries x100': '750', 'Caucasus': '2', 'AC72 Whirlwind': '2', 'Pyre': '1', 'Legendary Minimum Bench Cost': '1'}
-/item/763;M-37 Piercer;27.75;Engineers;Rare;Machine gun;{'Scrap Metal x100': '600', 'Copper x100': '200', 'Engraved casings': '100', 'LM-54 Chord': '3', 'B-1 Aviator': '2', 'Car jack': '2', 'Relic Minimum Bench Cost': '1'}
-/item/764;Prometheus V;379.53;Dawn's Children;Epic;Plasma Emitter;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Synthesis': '2', 'Genesis': '2', 'Maxwell': '2', 'Epic Minimum Bench Cost': '1'}
-/item/765;Fafnir;222.01;Firestarters;Epic;Shotgun;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Junkbow': '2', 'Shiv ST': '2', 'Judge 76mm': '2', 'Epic Minimum Bench Cost': '1'}
-/item/766;Aspect;1319.99;Nomads;Legendary;Machine gun;{'Scrap Metal x100': '100', 'Electronics x100': '750', 'Copper x100': '750', 'Batteries x100': '750', 'Spectre-2': '2', 'Hot red': '2', 'RD-2 Keen': '1', 'Legendary Minimum Bench Cost': '1'}
-/item/828;Nidhogg;1406.00;Firestarters;Legendary;Shotgun;{'Scrap Metal x100': '100', 'Electronics x100': '750', 'Copper x100': '750', 'Batteries x100': '750', 'Fafnir': '2', 'Neutrino': '2', 'RT Anaconda': '1', 'Legendary Minimum Bench Cost': '1'}
-/item/829;Helios;1820.00;Dawn's Children;Legendary;Plasma Emitter;{'Scrap Metal x100': '100', 'Electronics x100': '750', 'Copper x100': '750', 'Batteries x100': '750', 'Prometheus V': '2', 'Tormentor': '2', 'ML 200': '1', 'Legendary Minimum Bench Cost': '1'}
-/item/830;Oculus VI;42.82;Scavanger;Rare;Radar;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Radio': '1', 'RS-1 Ruby': '1', 'Small wheel': '1', 'Rare Minimum Bench Cost': '1'}
-/item/865;M-38 Fidget;298.00;Engineers;Epic;Rapid-fire machinegun;{'Scrap Metal x100': '750', 'Wires x100': '500', 'Copper x100': '600', 'Plastic x100': '250', 'Engraved casings': '200', 'M-37 Piercer': '2', 'Jawbreaker': '2', 'Pilgrim': '2', 'Relic Minimum Bench Cost': '1'}
-/item/866;M-39 Imp;1790.00;Engineers;Legendary;Rapid-fire machinegun;{'Scrap Metal x100': '1350', 'Electronics x100': '800', 'Copper x100': '1350', 'Batteries x100': '800', 'Engraved casings': '300', 'M-38 Fidget': '2', 'Aurora': '2', 'Oppressor': '1', 'Relic Minimum Bench Cost': '1'}
-/item/908;CC-18 Typhoon;19800.00;Engineers;Relic;Cannon;{'Electronics x100': '1000', 'Copper x100': '1000', 'Uranium ore x100': '600', 'Batteries x100': '1000', 'BC-17 Tsunami': '1', 'Mandrake': '1', 'Relic Minimum Bench Cost': '1'}
-/item/909;Punisher;21999.98;Engineers;Relic;Machine gun;{'Electronics x100': '1000', 'Copper x100': '1000', 'Uranium ore x100': '600', 'Batteries x100': '1000', 'Aspect': '1', 'Cyclone': '1', 'Relic Minimum Bench Cost': '1'}
-/item/910;Breaker;22999.99;Engineers;Relic;Shotgun;{'Electronics x100': '1000', 'Copper x100': '1000', 'Uranium ore x100': '600', 'Batteries x100': '1000', 'Hammerfall': '1', 'Fortune': '1', 'Relic Minimum Bench Cost': '1'}
-/item/960;Sprinter;0.66;Engineers;Common;Medium cabin;{'Scrap Metal x100': '75'}
+/item/420;Paint container;178.00;Engineers;Legendary;Crate;{'Scrap Metal x100': '450', 'Wires x100': '50', 'Copper x100': '50', 'Skins Minimum Bench Cost': '1'}
+/item/433;Fuel tank;32.00;Engineers;Rare;Special module;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Fuel barrel': '3', 'Rare Minimum Bench Cost': '1'}
+/item/450;'Legend' container;18.78;Engineers;Legendary;Crate;{'Scrap Metal x100': '50', 'Coupons x100': '600'}
+/item/451;Decor container;10.34;Engineers;Common;Crate;{'Scrap Metal x100': '400'}
+/item/455;Fuze;306.00;Lunatics;Epic;Drone;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Sledgehammer': '2', 'Studded wheel ST': '2', 'AC43 Rapier': '2', 'Epic Minimum Bench Cost': '1'}
+/item/456;BC-17 Tsunami;1698.00;Steppenwolfs;Legendary;Turret cannon;{'Scrap Metal x100': '100', 'Batteries x100': '750', 'Electronics x100': '750', 'Copper x100': '750', 'Clarinet TOW': '2', 'GL-55 Impulse': '2', 'Hardened track': '1', 'Legendary Minimum Bench Cost': '1'}
+/item/457;BG2 Goblin;41.92;Lunatics;Rare;Shotgun;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Lupara': '1', 'Small wheel': '1', 'Radio': '1', 'Rare Minimum Bench Cost': '1'}
+/item/458;Material: Alligator;125.00;Engineers;Epic;Paint;{'Scrap Metal x100': '450', 'Copper x100': '250', 'Wires x100': '1000', "'Alligator' fragment": '40'}
+/item/460;Pattern: Blackboard;24.99;Engineers;Rare;Paint;{'Scrap Metal x100': '600', 'Copper x100': '100', "'Blackboard' fragment": '40'}
+/item/475;Synthesis;41.79;Dawn's Children;Rare;Plasma Emitter;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Radio': '2', 'Avenger 57mm': '1', 'Rare Minimum Bench Cost': '1'}
+/item/482;Lunar IV ST;35.69;Dawn's Children;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Small wheel ST': '2', 'Medium wheel ST': '1', 'Rare Minimum Bench Cost': '1'}
+/item/483;Lunar IV;48.40;Dawn's Children;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Small wheel': '2', 'Medium wheel': '1', 'Rare Minimum Bench Cost': '1'}
+/item/488;Neutrino;360.00;Dawn's Children;Epic;Visor;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'TS-1 Horizon': '2', 'Genesis': '2', 'Pilgrim': '2', 'Epic Minimum Bench Cost': '1'}
+/item/490;Quasar;370.00;Dawn's Children;Epic;Plasma Emitter;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Little Boy 6LB': '2', 'Synthesis': '2', 'Genesis': '2', 'Epic Minimum Bench Cost': '1'}
+/item/496;Aegis-Prime;1862.62;Dawn's Children;Legendary;Protectivefield;{'Scrap Metal x100': '100', 'Batteries x100': '750', 'Electronics x100': '750', 'Copper x100': '750', 'Barrier IX': '2', 'Chameleon Mk2': '2', 'RT Anaconda': '1', 'Legendary Minimum Bench Cost': '1'}
+/item/497;Icarus VII;370.39;Dawn's Children;Epic;Hover;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Lunar IV ST': '2', 'Lunar IV': '2', 'Big G': '2', 'Epic Minimum Bench Cost': '1'}
+/item/498;Aurora;333.34;Dawn's Children;Epic;Combat laser;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Synthesis': '2', 'Lunar IV ST': '2', 'Razorback': '2', 'Epic Minimum Bench Cost': '1'}
+/item/505;Quantum;344.83;Dawn's Children;Epic;Medium cabin;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Pilgrim': '2', 'Genesis': '2', 'Wyvern': '2', 'Epic Minimum Bench Cost': '1'}
+/item/506;Pilgrim;40.01;Dawn's Children;Rare;Medium cabin;{'Scrap Metal x100': '650', 'Copper x100': '150', 'WWT1': '1', 'Huntsman': '1', 'Sprinter': '1', 'Rare Minimum Bench Cost': '1'}
+/item/508;Barrier IX;342.94;Dawn's Children;Epic;Turret;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Pilgrim': '2', 'Lunar IV': '2', 'DT Cobra': '2', 'Epic Minimum Bench Cost': '1'}
+/item/509;Spark III;2100.83;Dawn's Children;Legendary;Tesla cannon;{'Scrap Metal x100': '100', 'Batteries x100': '750', 'Electronics x100': '750', 'Copper x100': '750', 'Shiver': '2', 'Quasar': '2', 'MD-3 Owl': '1', 'Legendary Minimum Bench Cost': '1'}
+/item/510;Genesis;36.00;Dawn's Children;Rare;Microfactory;{'Scrap Metal x100': '600', 'Copper x100': '150', 'R-1 Breeze': '2', 'Car jack': '1', 'Rare Minimum Bench Cost': '1'}
+/item/516;Material: Test Dummy;72.05;Engineers;Epic;Paint;{'Scrap Metal x100': '450', 'Copper x100': '200', 'Wires x100': '100', "'Test Dummy' fragment": '40'}
+/item/524;Fright container;166.00;Engineers;Legendary;Crate;{'Scrap Metal x100': '800', 'Copper x100': '50', 'Hazardous sweets x100': '200'}
+/item/594;Skinner;379.47;Firestarters;Epic;Harpoon cannon;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Junkbow': '2', 'Shiv ST': '2', 'Sledgehammer': '2', 'Epic Minimum Bench Cost': '1'}
+/item/595;Meat Grinder;290.00;Firestarters;Epic;Auger;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Shiv': '2', 'Shiv ST': '2', 'Buzzsaw': '2', 'Epic Minimum Bench Cost': '1'}
+/item/598;Junkbow;39.12;Firestarters;Rare;Shotgun;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Lupara': '2', 'Sprinter': '1', 'Rare Minimum Bench Cost': '1'}
+/item/599;Bat;49.48;Firestarters;Rare;Medium cabin;{'Scrap Metal x100': '650', 'Copper x100': '150', 'Huntsman': '1', 'Fuel barrel': '1', 'RS-1 Ruby': '1', 'Rare Minimum Bench Cost': '1'}
+/item/600;Shiv ST;39.00;Firestarters;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Small wheel ST': '2', 'Medium wheel ST': '1', 'Rare Minimum Bench Cost': '1'}
+/item/602;Shiv;30.00;Firestarters;Rare;Wheel;{'Scrap Metal x100': '550', 'Copper x100': '150', 'Small wheel': '2', 'Medium wheel': '1', 'Rare Minimum Bench Cost': '1'}
+/item/609;Phoenix;215.49;Firestarters;Epic;Crossbow;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Junkbow': '2', 'Shiv': '2', 'Boom': '2', 'Epic Minimum Bench Cost': '1'}
+/item/610;Bigfoot ST;347.23;Firestarters;Epic;Wheel;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Shiv ST': '2', 'Bat': '2', 'Twin wheel ST': '2', 'Epic Minimum Bench Cost': '1'}
+/item/611;Bigfoot;328.98;Firestarters;Epic;Wheel;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Shiv': '2', 'Bat': '2', 'Large wheel': '2', 'Epic Minimum Bench Cost': '1'}
+/item/612;Oppressor;324.87;Firestarters;Epic;Engine;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Bat': '2', 'Shiv': '2', 'Hardcore': '2', 'Epic Minimum Bench Cost': '1'}
+/item/613;Werewolf;329.67;Firestarters;Epic;Light cabin;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Bat': '2', 'Shiv ST': '2', 'Ampere': '2', 'Epic Minimum Bench Cost': '1'}
+/item/614;Tormentor;393.86;Firestarters;Epic;Weapon booster;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Bat': '2', 'Junkbow': '2', 'Chameleon': '2', 'Epic Minimum Bench Cost': '1'}
+/item/616;Draco;1529.90;Firestarters;Legendary;Flamethrower;{'Scrap Metal x100': '100', 'Batteries x100': '750', 'Electronics x100': '750', 'Copper x100': '750', 'Werewolf': '2', 'Thunderbolt': '2', 'RN Seal': '1', 'Legendary Minimum Bench Cost': '1'}
+/item/617;Fortune;1703.00;Firestarters;Legendary;Minelayer;{'Scrap Metal x100': '100', 'Batteries x100': '750', 'Electronics x100': '750', 'Copper x100': '750', 'Incinerator': '2', 'Cricket 1M': '2', 'Expanded ammo pack': '1', 'Legendary Minimum Bench Cost': '1'}
+/item/618;Incinerator;342.00;Firestarters;Epic;Catapult;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Shiv': '2', 'Junkbow': '2', 'Wasp': '2', 'Epic Minimum Bench Cost': '1'}
+/item/652;Cyclone;1920.00;Steppenwolfs;Legendary;Auto-cannon;{'Scrap Metal x100': '100', 'Electronics x100': '750', 'Copper x100': '750', 'Batteries x100': '750', 'Caucasus': '2', 'AC72 Whirlwind': '2', 'Pyre': '1', 'Legendary Minimum Bench Cost': '1'}
+/item/763;M-37 Piercer;27.50;Engineers;Rare;Machine gun;{'Scrap Metal x100': '600', 'Copper x100': '200', 'Engraved casings': '100', 'LM-54 Chord': '3', 'B-1 Aviator': '2', 'Car jack': '2', 'Relic Minimum Bench Cost': '1'}
+/item/764;Prometheus V;385.00;Dawn's Children;Epic;Plasma Emitter;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Synthesis': '2', 'Genesis': '2', 'Maxwell': '2', 'Epic Minimum Bench Cost': '1'}
+/item/765;Fafnir;244.90;Firestarters;Epic;Shotgun;{'Scrap Metal x100': '250', 'Wires x100': '500', 'Copper x100': '450', 'Plastic x100': '250', 'Junkbow': '2', 'Shiv ST': '2', 'Judge 76mm': '2', 'Epic Minimum Bench Cost': '1'}
+/item/766;Aspect;1306.85;Nomads;Legendary;Machine gun;{'Scrap Metal x100': '100', 'Electronics x100': '750', 'Copper x100': '750', 'Batteries x100': '750', 'Spectre-2': '2', 'Hot red': '2', 'RD-2 Keen': '1', 'Legendary Minimum Bench Cost': '1'}
+/item/828;Nidhogg;1500.00;Firestarters;Legendary;Shotgun;{'Scrap Metal x100': '100', 'Electronics x100': '750', 'Copper x100': '750', 'Batteries x100': '750', 'Fafnir': '2', 'Neutrino': '2', 'RT Anaconda': '1', 'Legendary Minimum Bench Cost': '1'}
+/item/829;Helios;1875.00;Dawn's Children;Legendary;Plasma Emitter;{'Scrap Metal x100': '100', 'Electronics x100': '750', 'Copper x100': '750', 'Batteries x100': '750', 'Prometheus V': '2', 'Tormentor': '2', 'ML 200': '1', 'Legendary Minimum Bench Cost': '1'}
+/item/830;Oculus VI;43.67;Scavanger;Rare;Radar;{'Scrap Metal x100': '600', 'Copper x100': '150', 'Radio': '1', 'RS-1 Ruby': '1', 'Small wheel': '1', 'Rare Minimum Bench Cost': '1'}
+/item/865;M-38 Fidget;299.98;Engineers;Epic;Rapid-fire machinegun;{'Scrap Metal x100': '750', 'Wires x100': '500', 'Copper x100': '600', 'Plastic x100': '250', 'Engraved casings': '200', 'M-37 Piercer': '2', 'Jawbreaker': '2', 'Pilgrim': '2', 'Relic Minimum Bench Cost': '1'}
+/item/866;M-39 Imp;1685.00;Engineers;Legendary;Rapid-fire machinegun;{'Scrap Metal x100': '1350', 'Electronics x100': '800', 'Copper x100': '1350', 'Batteries x100': '800', 'Engraved casings': '300', 'M-38 Fidget': '2', 'Aurora': '2', 'Oppressor': '1', 'Relic Minimum Bench Cost': '1'}
+/item/908;CC-18 Typhoon;19980.00;Engineers;Relic;Cannon;{'Electronics x100': '1000', 'Copper x100': '1000', 'Uranium ore x100': '600', 'Batteries x100': '1000', 'BC-17 Tsunami': '1', 'Mandrake': '1', 'Relic Minimum Bench Cost': '1'}
+/item/909;Punisher;21000.00;Engineers;Relic;Machine gun;{'Electronics x100': '1000', 'Copper x100': '1000', 'Uranium ore x100': '600', 'Batteries x100': '1000', 'Aspect': '1', 'Cyclone': '1', 'Relic Minimum Bench Cost': '1'}
+/item/910;Breaker;22666.00;Engineers;Relic;Shotgun;{'Electronics x100': '1000', 'Copper x100': '1000', 'Uranium ore x100': '600', 'Batteries x100': '1000', 'Hammerfall': '1', 'Fortune': '1', 'Relic Minimum Bench Cost': '1'}
+/item/960;Sprinter;0.56;Engineers;Common;Medium cabin;{'Scrap Metal x100': '75'}
