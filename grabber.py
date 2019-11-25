@@ -1,13 +1,15 @@
+import os
 import requests
 import time
 from bs4 import BeautifulSoup
+
 from settings import *
 
 
 def get_craft_materials(uid):
     url_ = 'https://crossoutdb.com/{}'.format(uid)
     craft_materials = {}
-    response_ = requests.get(url_)
+    response_ = requests.get(url_, proxies=proxies, verify=False)
     # parse html
     item_page = BeautifulSoup(response_.content, 'html.parser')
     for row in item_page.findAll('tr', class_="depth-1"):
@@ -21,18 +23,12 @@ def get_craft_materials(uid):
 
 while True:
     # Setting and emptying the Data Files
-    open(resources_file, 'w').close()
-    open(dict_resources, 'w').close()
-    open(craftables_file, 'w').close()
-    open(dict_commons, 'w').close()
-    open(dict_rares, 'w').close()
-    open(dict_epics, 'w').close()
-    open(dict_legendaries, 'w').close()
-    open(dict_relics, 'w').close()
+    open(cratmp_file, 'w').close()
+    open(restmp_file, 'w').close()
 
     # CrossoutDB Main Page
     url = 'https://crossoutdb.com/#length=-1.'
-    response = requests.get(url)
+    response = requests.get(url, proxies=proxies, verify=False)
 
     # parse html
     crossoutdb_page = BeautifulSoup(response.content, 'html.parser')
@@ -48,62 +44,34 @@ while True:
         item_minsell = table_row.find_all('div', class_='label-md')[1].text.strip()
 
         if item_type == 'Resource':
-            with open(resources_file, 'a') as file:
+            with open(restmp_file, 'a') as file:
                 file.write(f'{item_id};{item_name};{item_minsell};{item_rarity};{item_type}\n')
             file.close()
 
         if item_faction != '':
-            with open(craftables_file, 'a') as file:
+            with open(cratmp_file, 'a') as file:
                 file.write(f'{item_id};{item_name};{item_minsell};{item_faction};{item_rarity};{item_type};'
                            f'{get_craft_materials(item_id)}\n')
             file.close()
 
-    time.sleep(120)
-    '''
-            if item_rarity == 'Common':
-                obj = CommonCraftable(
-                    item_id, item_name, item_minsell, item_type, item_faction, item_rarity, get_craft_materials(item_id)
-                )
-                with open(dict_commons, 'a') as dict_file:
-                    dict_file.write(json.dumps(obj.__dict__))
-                    dict_file.write('\n')
-                dict_file.close()
-    
-            if item_rarity == 'Rare':
-                obj = RareCraftable(
-                    item_id, item_name, item_minsell, item_type, item_faction, item_rarity, get_craft_materials(item_id)
-                )
-                with open(dict_rares, 'a') as dict_file:
-                    dict_file.write(json.dumps(obj.__dict__))
-                    dict_file.write('\n')
-                dict_file.close()
-    
-            if item_rarity == 'Epic':
-                obj = EpicCraftable(
-                    item_id, item_name, item_minsell, item_type, item_faction, item_rarity, get_craft_materials(item_id)
-                )
-                with open(dict_epics, 'a') as dict_file:
-                    dict_file.write(json.dumps(obj.__dict__))
-                    dict_file.write('\n')
-                dict_file.close()
-    
-            if item_rarity == 'Legendary':
-                obj = LegendaryCraftable(
-                    item_id, item_name, item_minsell, item_type, item_faction, item_rarity, get_craft_materials(item_id)
-                )
-                with open(dict_legendaries, 'a') as dict_file:
-                    dict_file.write(json.dumps(obj.__dict__))
-                    dict_file.write('\n')
-                dict_file.close()
-    
-            if item_rarity == 'Relic':
-                obj = RelicCraftable(
-                    item_id, item_name, item_minsell, item_type, item_faction, item_rarity, get_craft_materials(item_id)
-                )
-                with open(dict_relics, 'a') as dict_file:
-                    dict_file.write(json.dumps(obj.__dict__))
-                    dict_file.write('\n')
-                dict_file.close()
-    '''
+    # Manually Adding Workbenches and Others as Resources
+    with open(restmp_file, 'a') as file:
+        file.write(f'item/392;\'Calendar\' fragment;0;Rare;Resource\n')
+        file.write(f'item/393;\'Graffiti Dusk\' fragment;0;Rare;Resource\n')
+        file.write(f'item/443;\'Duck\' fragment;0;Rare;Resource\n')
+        file.write(f'item/444;\'Stop!\' fragment;0;Rare;Resource\n')
+        file.write(f'item/446;Rare Minimum Bench Cost;4.5;Common;Resource\n')
+        file.write(f'item/447;Epic Minimum Bench Cost;18;Common;Resource\n')
+        file.write(f'item/448;Legendary Minimum Bench Cost;72;Common;Resource\n')
+        file.write(f'item/449;Relic Minimum Bench Cost;0;Common;Resource\n')
+        file.write(f'item/459;\'Alligator\' fragment;0;Rare;Resource\n')
+        file.write(f'item/461;\'Blackboard\' fragment;0;Rare;Resource\n')
+        file.write(f'item/466;Skins Minimum Bench Cost;150;Common;Resource\n')
+        file.write(f'item/469;\'Small speaker\' fragment;0;Rare;Resource\n')
+        file.write(f'item/470;\'No escape\' fragment;0;Rare;Resource\n')
+        file.write(f'item/517;\'Test Dummy\' fragment;0;Rare;Resource\n')
+    file.close()
 
-    # print(item_id, item_name, item_minsell, item_type, item_faction, item_rarity)
+    os.replace(restmp_file, resources_file)
+    os.replace(cratmp_file, craftables_file)
+    time.sleep(120)

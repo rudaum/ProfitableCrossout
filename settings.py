@@ -9,12 +9,8 @@ proxies = {
 # Files
 resources_file = 'db/resources.csv'
 craftables_file = 'db/craftables.csv'
-dict_resources = 'db/resources.dict'
-dict_commons = 'db/commons.dict'
-dict_rares = 'db/rares.dict'
-dict_epics = 'db/epics.dict'
-dict_legendaries = 'db/legendaries.dict'
-dict_relics = 'db/relics.dict'
+restmp_file = 'db/.restmp.csv'
+cratmp_file = 'db/.cratmp.csv'
 
 workbench_cost = {'Relic Minimum Bench Cost': 0, 'Legendary Minimum Bench Cost': 72, 'Epic Minimum Bench Cost': 18,
                   'Rare Minimum Bench Cost': 4.5}
