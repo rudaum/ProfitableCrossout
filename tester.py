@@ -31,7 +31,7 @@ def get_prodcost(_craftable, tab):
     """
     prodcost = 0
 
-    print(f'{tab}{_craftable.name}:')
+    print(f'{tab}{_craftable.name} ({_craftable.value}):')
     tab = tab + '  '
     for resource, amount in _craftable.resources_list:
         partial_cost = round(float(resources[resource].unit_price) * amount, 2)
@@ -43,10 +43,17 @@ def get_prodcost(_craftable, tab):
         for craft, amount in _craftable.craftables_list:
             # partial_cost = round(float(craftables[craft].value) * amount, 2)
             for loop in range(amount):
-                get_prodcost(craftables[craft], tab)
-                # If the prod cost of the item is cheaper than the buy cost, calculate the crafting value
-                # if partial_cost < craftables[craft].value:
-
+                partial_cost = get_prodcost(craftables[craft], tab)
+                # If the prod cost of the item is more expensive than the buy cost
+                if partial_cost >= float(craftables[craft].value):
+                    partial_cost = float(craftables[craft].value)
+                    craftables[craft].buy_or_craft = 'buy'
+                    print(f'{tab}Buy item {craft}')
+                else:
+                    craftables[craft].buy_or_craft = 'craft'
+                    print(f'{tab}Craft item {craft}')
+                prodcost = prodcost + partial_cost
+    print(f'{tab}Total Prod Cost: {round(prodcost, 2)}')
     return prodcost
 
 # Reading the Resources CSV file and feeding a Dictionary of Resources Objects
@@ -65,7 +72,7 @@ for craftable in craftables.keys():
     set_prodmaterials(craftables[craftable])
 
 
-item = 'Gasgen'
+item = 'Borer'
 get_prodcost(craftables[item], '')
 
 """
