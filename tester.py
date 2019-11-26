@@ -1,8 +1,9 @@
 from settings import craftables_file, resources_file
-from classes import Craftable, Resource
+from classes import Craftable, Resource, market_advisor
 
 craftables = {}
 resources = {}
+advisors = {}
 
 
 def set_prodmaterials(_craftable):
@@ -30,13 +31,9 @@ def get_prodcost(_craftable, tab):
     then this method is RECURSIVELY called.
     """
     prodcost = 0
-
+    advisor = market_advisor(_craftable)
     print(f'{tab}{_craftable.name} ({_craftable.value}):')
     tab = tab + '  '
-    for resource, amount in _craftable.resources_list:
-        partial_cost = round(float(resources[resource].unit_price) * amount, 2)
-        prodcost = prodcost + partial_cost
-        print(f'{tab}{resource} Cost: {partial_cost}')
 
     # If there are Craftable Items as required materials ....
     if len(_craftable.craftables_list) > 0:
@@ -48,12 +45,25 @@ def get_prodcost(_craftable, tab):
                 if partial_cost >= float(craftables[craft].value):
                     partial_cost = float(craftables[craft].value)
                     craftables[craft].buy_or_craft = 'buy'
-                    print(f'{tab}Buy item {craft}')
+                    #print(f'{tab}Buy item {craft}')
                 else:
                     craftables[craft].buy_or_craft = 'craft'
-                    print(f'{tab}Craft item {craft}')
+                    #print(f'{tab}Craft item {craft}')
                 prodcost = prodcost + partial_cost
+
+
+    for resource, amount in _craftable.resources_list:
+        partial_cost = round(float(resources[resource].unit_price) * amount, 2)
+        prodcost = prodcost + partial_cost
+        print(f'{tab}{resource} Cost: {partial_cost}')
+
     print(f'{tab}Total Prod Cost: {round(prodcost, 2)}')
+    if prodcost < float(_craftable.value):
+        print(f'{tab}Craft item {_craftable.name}')
+        _craftable.buy_or_craft = 'craft'
+    else:
+        print(f'{tab}Buy item {_craftable.name}')
+        _craftable.buy_or_craft = 'buy'
     return prodcost
 
 # Reading the Resources CSV file and feeding a Dictionary of Resources Objects
@@ -72,7 +82,7 @@ for craftable in craftables.keys():
     set_prodmaterials(craftables[craftable])
 
 
-item = 'Borer'
+item = 'Gasgen'
 get_prodcost(craftables[item], '')
 
 """

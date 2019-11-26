@@ -25,3 +25,10 @@ class Craftable:
         self.buy_or_craft = ''
 
 
+class market_advisor:
+    def __init__(self, craftable):
+        self.craftable = craftable
+        self.buy_list = []
+        self.craft_list = []
+
+
