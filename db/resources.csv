@@ -1,34 +1,20 @@
-/item/43;Copper x100;2.56;Common;Resource
-/item/53;Scrap Metal x100;3.39;Common;Resource
-/item/57;Scrap Metal x1000;34.95;Common;Resource
-/item/85;Wires x100;6.07;Common;Resource
-/item/106;Fuel x100;2.93;Common;Resource
+/item/43;Copper x100;2.95;Common;Resource
+/item/53;Scrap Metal x100;4.34;Common;Resource
+/item/57;Scrap Metal x1000;43.38;Common;Resource
+/item/85;Wires x100;7.05;Common;Resource
+/item/106;Fuel x100;2.80;Common;Resource
 /item/114;Coupons x10;0.23;Common;Resource
-/item/118;Copper x1000;24.11;Common;Resource
-/item/119;Coupons x100;2.57;Common;Resource
-/item/137;Fuel x1000;29.22;Common;Resource
-/item/168;Electronics x100;36.59;Common;Resource
-/item/201;Electronics x10;3.57;Common;Resource
-/item/221;Wires x1000;67.74;Common;Resource
-/item/335;Uranium ore x10;294.00;Common;Resource
-/item/337;Uranium ore x100;3036.95;Common;Resource
-/item/370;Repair Kit;2.98;Common;Resource
-/item/783;Batteries x10;0.57;Common;Resource
-/item/784;Batteries x100;5.80;Common;Resource
-/item/785;Plastic x100;18.58;Common;Resource
-/item/786;Plastic x1000;199.47;Common;Resource
+/item/118;Copper x1000;29.25;Common;Resource
+/item/119;Coupons x100;2.39;Common;Resource
+/item/137;Fuel x1000;28.96;Common;Resource
+/item/168;Electronics x100;38.50;Common;Resource
+/item/201;Electronics x10;3.75;Common;Resource
+/item/221;Wires x1000;70.76;Common;Resource
+/item/335;Uranium ore x10;299.90;Common;Resource
+/item/337;Uranium ore x100;3053.00;Common;Resource
+/item/370;Repair Kit;3.59;Common;Resource
+/item/783;Batteries x10;0.61;Common;Resource
+/item/784;Batteries x100;6.65;Common;Resource
+/item/785;Plastic x100;20.00;Common;Resource
+/item/786;Plastic x1000;199.94;Common;Resource
 /item/919;Engraved casings;0.00;Common;Resource
-item/392;'Calendar' fragment;0;Rare;Resource
-item/393;'Graffiti Dusk' fragment;0;Rare;Resource
-item/443;'Duck' fragment;0;Rare;Resource
-item/444;'Stop!' fragment;0;Rare;Resource
-item/446;Rare Minimum Bench Cost;4.5;Common;Resource
-item/447;Epic Minimum Bench Cost;18;Common;Resource
-item/448;Legendary Minimum Bench Cost;72;Common;Resource
-item/449;Relic Minimum Bench Cost;0;Common;Resource
-item/459;'Alligator' fragment;0;Rare;Resource
-item/461;'Blackboard' fragment;0;Rare;Resource
-item/466;Skins Minimum Bench Cost;150;Common;Resource
-item/469;'Small speaker' fragment;0;Rare;Resource
-item/470;'No escape' fragment;0;Rare;Resource
-item/517;'Test Dummy' fragment;0;Rare;Resource
