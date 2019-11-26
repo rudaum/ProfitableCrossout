@@ -74,4 +74,4 @@ while True:
 
     os.replace(restmp_file, resources_file)
     os.replace(cratmp_file, craftables_file)
-    time.sleep(120)
+    time.sleep(60)
