@@ -19,13 +19,25 @@ class Craftable:
         self.uid, self.name, self.value, self.faction, self.rarity, self.type, craft_materials \
             = csv_value.split(';')
         self.craft_materials = eval(craft_materials)
-        self.prod_cost = 0
         self.resources_list = []
         self.craftables_list = []
+        self.prod_cost = 0
+        self.res_totalcost = 0
         self.buy_or_craft = ''
+        self.value_after_taxes = float(self.value) * 0.9
+        self.profit = 0
+        self.craft_time = 0.084
+        if self.rarity == 'Rare':
+            self.craft_time = 15
+        if self.rarity == 'Epic':
+            self.craft_time = 360
+        if self.rarity == 'Legendary':
+            self.craft_time = 1260
+        if self.rarity == 'Legendary':
+            self.craft_time = 7200
 
 
-class market_advisor:
+class MarketAdvisor:
     def __init__(self, craftable):
         self.craftable = craftable
         self.buy_list = []
