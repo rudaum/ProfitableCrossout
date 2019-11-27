@@ -70,6 +70,7 @@ while True:
         file.write(f'item/469;\'Small speaker\' fragment;0;Rare;Resource\n')
         file.write(f'item/470;\'No escape\' fragment;0;Rare;Resource\n')
         file.write(f'item/517;\'Test Dummy\' fragment;0;Rare;Resource\n')
+        file.write(f'item/522;Hazardous sweets x100;0.4;Common;Resource\n')
     file.close()
 
     os.replace(restmp_file, resources_file)
